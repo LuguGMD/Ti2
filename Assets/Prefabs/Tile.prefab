@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 884030017595092284}
   - component: {fileID: 8893576701389628013}
-  - component: {fileID: 2252507075925177879}
   m_Layer: 0
   m_Name: Tile
   m_TagString: BackgroundTile
@@ -65,21 +64,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.01, y: 1.97, z: 2.41}
   m_Center: {x: 0, y: 0.64, z: 0.45}
---- !u!114 &2252507075925177879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2581585599855989893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 436e89a5aa39d9e4c9c6a7d3acf69624, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundTilePrefab: {fileID: 2581585599855989893}
-  spawnPoint: {fileID: 0}
-  tileParent: {fileID: 0}
 --- !u!1 &4573317063712546548
 GameObject:
   m_ObjectHideFlags: 0
