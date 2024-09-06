@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - BackgroundTile
+  - Enemy
   layers:
   - Default
   - TransparentFX
