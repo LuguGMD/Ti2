@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -17,6 +18,13 @@ public class GameManager : MonoBehaviour
 
     public GameObject victoryPanel;
     public GameObject gameOverPanel;
+    public GameObject pausePanel;
+
+
+    private void Start()
+    {
+        Time.timeScale = 1f;
+    }
 
     public void AddPoint()
     {
@@ -72,5 +80,32 @@ public class GameManager : MonoBehaviour
     {
         gameOverPanel.SetActive(true);
         Time.timeScale = 0f;
+    }
+
+    public void SceneChange(int id)
+    {
+        SceneManager.LoadScene(id);
+    }
+
+    public void PauseGame()
+    {
+        pausePanel.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
+    public void UnpauseGame()
+    {
+        pausePanel.SetActive(false);
+        Time.timeScale = 1f;
+    }
+
+    public void QuitGame()
+    {
+
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false; // Quit in Unity Editor
+#endif
+
+        Application.Quit(); // Quit in build
     }
 }
