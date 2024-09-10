@@ -12,8 +12,11 @@ public class GameManager : MonoBehaviour
     private int points;
     public TMP_Text pointsText;
 
-    [SerializeField] private int combo = 0;
+    private int combo = 0;
     public TMP_Text comboText;
+
+    public GameObject victoryPanel;
+    public GameObject gameOverPanel;
 
     public void AddPoint()
     {
@@ -33,6 +36,12 @@ public class GameManager : MonoBehaviour
         // Breaks combo
         combo = 0;
         comboText.enabled = false;
+
+        // Game Over trigger
+        if (health <= 0)
+        {
+            GameOver();
+        }
     }
 
     void Heal(int heal)
@@ -51,5 +60,17 @@ public class GameManager : MonoBehaviour
         {
             comboText.enabled = true; // Enables combo count if combo is greater than 5
         }
+    }
+
+    public void Victory()
+    {
+        victoryPanel.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
+    public void GameOver()
+    {
+        gameOverPanel.SetActive(true);
+        Time.timeScale = 0f;
     }
 }
