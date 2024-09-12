@@ -1,9 +1,39 @@
 fileFormatVersion: 2
-guid: 7d1bef8690584b84f9e2b9630061d356
+guid: ff17ed8f9c1d36641a6256f609d0da54
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkPurple
+    second: {fileID: 2100000, guid: 8a66fe4ddaee24c408c3ab747590f1d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray
+    second: {fileID: 2100000, guid: 3ce25c0f3f2f26f42a4b36ab9d76459b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Purple
+    second: {fileID: 2100000, guid: f6d0bb717dedd304eb9e8d99aa269367, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red
+    second: {fileID: 2100000, guid: 04d1d4918fe11c8498a52780775c04b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skin
+    second: {fileID: 2100000, guid: 43206f4f14134514cb098e984df3a766, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 5a80aa21689b35f4aaed6017269c5a4e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
