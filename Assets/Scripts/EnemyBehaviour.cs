@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyBehaviour : MonoBehaviour
 {
     public int health = 1;
+    public GameObject collectableEffect;
     private GameManager gameManager;
 
     private void Start()
@@ -19,6 +20,7 @@ public class EnemyBehaviour : MonoBehaviour
         if (health <= 0)
         {
             gameManager.AddPoint();
+            Instantiate(collectableEffect, transform.position, Quaternion.identity);
             Destroy(gameObject); // Kills enemy if health reaches 0
         }
     }

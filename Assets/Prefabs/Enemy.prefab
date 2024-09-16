@@ -68,6 +68,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
+  collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
 --- !u!1001 &3572121696867497701
 PrefabInstance:
   m_ObjectHideFlags: 0
