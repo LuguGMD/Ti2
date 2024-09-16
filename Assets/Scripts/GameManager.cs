@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     
     private int points;
     public TMP_Text pointsText;
+    public TMP_Text victoryPanelPointsText;
 
     private int combo = 0;
     public TMP_Text comboText;
@@ -73,6 +74,7 @@ public class GameManager : MonoBehaviour
     public void Victory()
     {
         victoryPanel.SetActive(true);
+        victoryPanelPointsText.SetText(points.ToString());
         Time.timeScale = 0f;
     }
 
