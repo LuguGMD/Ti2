@@ -7,8 +7,11 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    private int health = 100;
+    public static GameManager instance;
+
+    public int health = 100;
     public Slider healthBar;
+    public bool invincible;
     
     private int points;
     public TMP_Text pointsText;
@@ -22,9 +25,17 @@ public class GameManager : MonoBehaviour
     public GameObject pausePanel;
 
 
-    private void Start()
+    private void Awake()
     {
         Time.timeScale = 1f;
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void AddPoint()
@@ -39,8 +50,11 @@ public class GameManager : MonoBehaviour
 
     public void Damage(int damage)
     {
-        health -= damage;
-        healthBar.value = health;
+        if (!invincible)
+        {
+            health -= damage;
+            UpdateHealthBar();
+        }
 
         // Breaks combo
         combo = 0;
@@ -58,7 +72,7 @@ public class GameManager : MonoBehaviour
         if (health < 100 && combo >= 5)
         {
             health += heal;
-            healthBar.value = health;
+            UpdateHealthBar();
         }
     }
 
@@ -69,6 +83,11 @@ public class GameManager : MonoBehaviour
         {
             comboText.enabled = true; // Enables combo count if combo is greater than 5
         }
+    }
+
+    public void UpdateHealthBar()
+    {
+        healthBar.value = health;
     }
 
     public void Victory()

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.EnhancedTouch;
 
 public class TouchManager : MonoBehaviour
 {
@@ -17,9 +18,6 @@ public class TouchManager : MonoBehaviour
     private GameObject player;
 
 
-
-
-
     private void Awake()
     {
 
@@ -32,14 +30,29 @@ public class TouchManager : MonoBehaviour
 
         touchPositionAction = playerInput.actions["TouchPosition"];
     }
+
+    private void Update()
+    {
+        var activeTouches = UnityEngine.InputSystem.EnhancedTouch.Touch.activeTouches;
+        if (activeTouches.Count == 5)
+        {
+            GameManager.instance.invincible = true;
+            GameManager.instance.health = 100;
+            GameManager.instance.UpdateHealthBar();
+            Debug.Log("Invencivel");
+        }
+    }
+
     private void OnEnable()
     {
         touchPressAction.performed += TouchPressed;
+        EnhancedTouchSupport.Enable();
 
     }
     private void OnDisable()
     {
         touchPressAction.performed -= TouchPressed;
+        EnhancedTouchSupport.Disable();
     }
 
     private void TouchPressed(InputAction.CallbackContext context)
