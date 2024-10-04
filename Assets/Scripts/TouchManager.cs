@@ -15,7 +15,6 @@ public class TouchManager : MonoBehaviour
     private PlayerInput playerInput;
     private InputAction touchPositionAction;
     private InputAction touchPressAction;
-    private GameObject player;
 
 
     private void Awake()
@@ -34,12 +33,19 @@ public class TouchManager : MonoBehaviour
     private void Update()
     {
         var activeTouches = UnityEngine.InputSystem.EnhancedTouch.Touch.activeTouches;
-        if (activeTouches.Count == 5)
+
+        if (activeTouches.Count == 2 && activeTouches[0].phase == UnityEngine.InputSystem.TouchPhase.Began && activeTouches[1].phase == UnityEngine.InputSystem.TouchPhase.Began)
+        {
+           if ((activeTouches[0].screenPosition.x < Screen.width/2 && activeTouches[1].screenPosition.x > Screen.width / 2) || activeTouches[1].screenPosition.x < Screen.width / 2 && activeTouches[0].screenPosition.x > Screen.width / 2)
+            {
+                Defend();
+            }
+        }
+        else if (activeTouches.Count == 5)
         {
             GameManager.instance.invincible = true;
             GameManager.instance.health = 100;
             GameManager.instance.UpdateHealthBar();
-            Debug.Log("Invencivel");
         }
     }
 
@@ -73,11 +79,18 @@ public class TouchManager : MonoBehaviour
 
     public void Attack(Transform attackPos)
     {
+        Debug.Log("Attack");
+        
         Collider[] enemiesToDamage = Physics.OverlapSphere(attackPos.position, attackRange, enemyLayer); // Gets enemies in player's attack area
         for (int i = 0; i < enemiesToDamage.Length; i++)
         {
             enemiesToDamage[i].GetComponent<EnemyBehaviour>().Damage();
         }
+    }
+
+    public void Defend()
+    {
+        Debug.Log("Defend");
     }
 
     private void OnDrawGizmosSelected()
