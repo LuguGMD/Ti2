@@ -21533,9 +21533,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 242631525}
     m_Modifications:
+    - target: {fileID: 2216348701099122036, guid: 51a9813864ac8ca4881b532e4d3aa7d4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4294911700485571577, guid: 51a9813864ac8ca4881b532e4d3aa7d4, type: 3}
       propertyPath: m_Name
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294911700485571577, guid: 51a9813864ac8ca4881b532e4d3aa7d4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6651123130025077582, guid: 51a9813864ac8ca4881b532e4d3aa7d4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9055880813310714231, guid: 51a9813864ac8ca4881b532e4d3aa7d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41563,13 +41575,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063651230}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.38670748, y: -0.2371721, z: 0.103617944, w: 0.88513845}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 47.2, y: -30, z: 0}
 --- !u!1001 &2063674083
 PrefabInstance:
   m_ObjectHideFlags: 0

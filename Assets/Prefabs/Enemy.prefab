@@ -117,6 +117,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4695207523506304138, guid: 5e26da8da2ebc1940b83ae08d30ac42a, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7917100539681693099, guid: 5e26da8da2ebc1940b83ae08d30ac42a, type: 3}
       propertyPath: m_Name
       value: Turtle
