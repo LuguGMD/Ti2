@@ -24081,7 +24081,7 @@ MonoBehaviour:
     notes:
     - name: A0
       midi: 21
-      time: 1.1625
+      time: 2.5625
       velocity: 0.78740156
       duration: 2.41875
     - name: A0
