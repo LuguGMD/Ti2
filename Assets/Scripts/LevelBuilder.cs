@@ -40,28 +40,27 @@ public class LevelBuilder : MonoBehaviour
         foreach (Note note in track.notes)
         {
             Vector3 position;
+            GameObject enemy;
             float positionX = note.time * backgroundSpeed; // Position in X axis that the enemy will be placed
             switch (note.name)
             {
                 case "C0":
                     break;
                 case "D0":
+                    position = new Vector3(positionX, enemyPrefabs[1].transform.position.y, enemyPrefabs[1].transform.position.z);
+                    enemy = Instantiate(enemyPrefabs[1], position, enemyPrefabs[1].transform.rotation, enemiesParent);
+                    enemy.GetComponent<EnemyBehaviour>().noteDuration = note.duration;
                     break;
                 case "E0":
-                    position = new Vector3(positionX, enemyPrefabs[2].transform.position.y, enemyPrefabs[2].transform.position.z);
-                    Instantiate(enemyPrefabs[2], position, enemyPrefabs[2].transform.rotation, enemiesParent);
                     break;
                 case "F0":
                     break;
                 case "G0":
+                    position = new Vector3(positionX, enemyPrefabs[4].transform.position.y, enemyPrefabs[4].transform.position.z);
+                    enemy = Instantiate(enemyPrefabs[4], position, enemyPrefabs[4].transform.rotation, enemiesParent);
+                    enemy.GetComponent<EnemyBehaviour>().noteDuration = note.duration;
                     break;
                 case "A0":
-                    position = new Vector3(positionX, enemyPrefabs[5].transform.position.y, enemyPrefabs[5].transform.position.z);
-                    Instantiate(enemyPrefabs[5], position, enemyPrefabs[5].transform.rotation, enemiesParent);
-                    break;
-                case "B0":
-                    break;
-                case "C1":
                     break;
             }
         }

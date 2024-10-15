@@ -6,10 +6,12 @@ public class EnemyBehaviour : MonoBehaviour
 {
     public int health = 1;
     public GameObject collectableEffect;
+    public float noteDuration;
 
     public void Damage()
     {
         health--;
+        AudioController.instance.PlayEnemySounds(noteDuration); // Plays the music when the enemy is hit
 
         if (health <= 0)
         {
