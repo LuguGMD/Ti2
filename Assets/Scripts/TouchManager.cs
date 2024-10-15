@@ -115,7 +115,8 @@ public class TouchManager : MonoBehaviour
         Collider[] enemiesToDamage = Physics.OverlapSphere(attackPos.position, attackRange, enemyLayer); // Gets enemies in player's attack area
         for (int i = 0; i < enemiesToDamage.Length; i++)
         {
-            enemiesToDamage[i].GetComponent<EnemyBehaviour>().Damage();
+            float precision = Mathf.Abs(attackPos.position.x - enemiesToDamage[i].transform.position.x);
+            enemiesToDamage[i].GetComponent<EnemyBehaviour>().Damage(precision);
         }
     }
 

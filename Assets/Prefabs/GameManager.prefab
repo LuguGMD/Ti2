@@ -44,5 +44,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdd9cd05319fcea499d0f31d50a2229e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 100
   healthBar: {fileID: 0}
+  powerupValue: 0
+  powerupBar: {fileID: 0}
+  invincible: 0
   pointsText: {fileID: 0}
+  victoryPanelPointsText: {fileID: 0}
+  score: 0
+  scoreText: {fileID: 0}
+  victoryPanelScoreText: {fileID: 0}
+  comboText: {fileID: 0}
+  victoryPanel: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  pausePanel: {fileID: 0}
+  precisionValues:
+    badCheck: 3.3
+    okCheck: 2.51
+    greatCheck: 1.55
+    perfectCheck: 0.54
+    badScore: 10
+    okScore: 50
+    greatScore: 100
+    perfectScore: 300
+    powerupMultiplier: 1.5
+    comboMultiplyList:
+    - comboValue: 10
+      comboMultiplier: 1.1
+    - comboValue: 30
+      comboMultiplier: 1.3
+    - comboValue: 50
+      comboMultiplier: 1.5
+    - comboValue: 100
+      comboMultiplier: 2
