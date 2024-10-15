@@ -6,20 +6,15 @@ public class EnemyBehaviour : MonoBehaviour
 {
     public int health = 1;
     public GameObject collectableEffect;
-    private GameManager gameManager;
 
-    private void Start()
-    {
-        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
-    }
-
-    public void Damage()
+    public void Damage(float precision)
     {
         health--;
 
         if (health <= 0)
         {
-            gameManager.AddPoint();
+            GameManager.instance.AddPoint();
+            GameManager.instance.AddScore(precision);
             Instantiate(collectableEffect, transform.position, Quaternion.identity);
             Destroy(gameObject); // Kills enemy if health reaches 0
         }

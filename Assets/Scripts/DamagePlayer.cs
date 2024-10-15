@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class DamagePlayer : MonoBehaviour
 {
-    public GameManager gameManager;
     
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Enemy"))
         {
-            gameManager.Damage(20);
+            GameManager.instance.Damage(20);
         }
     }
 }
