@@ -93,6 +93,7 @@ public class TouchManager : MonoBehaviour
     private void Touch0Canceled(InputAction.CallbackContext context)
     {
         touch0Pressed = false;
+        if(GameManager.instance.playerAnim.GetCurrentAnimatorStateInfo(0).IsTag("Attacking"))
         GameManager.instance.playerAnim.SetTrigger("Idling");
     }
 

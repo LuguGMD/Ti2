@@ -80,6 +80,7 @@ Material:
     - _GlossyReflections: 1
     - _MaxValue: 35
     - _Metallic: 0
+    - _MinValue: 0
     - _Mode: 0
     - _NightTime: 0
     - _OcclusionStrength: 1
