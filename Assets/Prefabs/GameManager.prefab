@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6380005297147843487}
   - component: {fileID: 4581914737326486179}
+  - component: {fileID: 4629062562198356136}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -46,12 +47,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   healthBar: {fileID: 0}
+  invincible: 0
   powerupValue: 0
   powerupBar: {fileID: 0}
-  invincible: 0
+  powerupActive: 0
+  powerupDuration: 15
   pointsText: {fileID: 0}
   victoryPanelPointsText: {fileID: 0}
-  score: 0
   scoreText: {fileID: 0}
   victoryPanelScoreText: {fileID: 0}
   comboText: {fileID: 0}
@@ -77,3 +79,55 @@ MonoBehaviour:
       comboMultiplier: 1.5
     - comboValue: 100
       comboMultiplier: 2
+--- !u!114 &4629062562198356136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751415978490124822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43479bcef90b51948ad1bac2e3b1da60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 4581914737326486179}
+  sceneLight: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 9f04bc0b217ef2a4e9b75cd467431033, type: 2}
+  - {fileID: 2100000, guid: eaeaea95e5dbae14bb495793d963777f, type: 2}
+  - {fileID: 2100000, guid: bfb4ca4f0bd612946b8555a57991289a, type: 2}
+  currentColor: {r: 1, g: 1, b: 1, a: 1}
+  gradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 0.28841394, b: 0, a: 1}
+    key2: {r: 0.51830745, g: 0.14913878, b: 0.48290026, a: 0}
+    key3: {r: 0.002501011, g: 0, b: 1, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 20432
+    ctime2: 34502
+    ctime3: 65535
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 2
+  gradientValue: 0
+  change: 0
+  speed: 5
