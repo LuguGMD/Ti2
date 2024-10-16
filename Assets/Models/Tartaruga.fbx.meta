@@ -3,7 +3,12 @@ guid: 675decf672c450548b03429b9a1cd874
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EnemiesAtlas
+    second: {fileID: 2100000, guid: eaeaea95e5dbae14bb495793d963777f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
