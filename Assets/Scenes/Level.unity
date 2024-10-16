@@ -5579,6 +5579,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8001957645635822417, guid: cc1b8459c29063f439007f85e7e8c109, type: 3}
   m_PrefabInstance: {fileID: 428427485}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &313998054 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6432624922356707230, guid: e7b5092e318f24e43b019899dcdd9a57, type: 3}
+  m_PrefabInstance: {fileID: 1158227247309177024}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &313998056
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313998054}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 43f5590f6c8c6c544baf9afdab25d56b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &315786169 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7593162387925657372, guid: bcc16d3607415ae4abd80ae02201f76c, type: 3}
@@ -49026,7 +49052,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6432624922356707230, guid: e7b5092e318f24e43b019899dcdd9a57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 313998056}
   m_SourcePrefab: {fileID: 100100000, guid: e7b5092e318f24e43b019899dcdd9a57, type: 3}
 --- !u!1001 &2679124208153663588
 PrefabInstance:
@@ -49117,6 +49146,10 @@ PrefabInstance:
       propertyPath: pausePanel
       value: 
       objectReference: {fileID: 1099239440}
+    - target: {fileID: 4581914737326486179, guid: 8cbae775798fddb458d747fcd740c4fe, type: 3}
+      propertyPath: playerAnim
+      value: 
+      objectReference: {fileID: 313998056}
     - target: {fileID: 4581914737326486179, guid: 8cbae775798fddb458d747fcd740c4fe, type: 3}
       propertyPath: pointsText
       value: 

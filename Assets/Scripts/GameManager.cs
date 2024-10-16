@@ -10,6 +10,7 @@ using UnityEditor.ShaderGraph.Internal;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    public Animator playerAnim;
 
     [Header("Health")]
     public int health = 100;
@@ -131,6 +132,8 @@ public class GameManager : MonoBehaviour
         combo = 0;
         comboText.enabled = false;
 
+        playerAnim.SetTrigger("Damaged");
+
         // Game Over trigger
         if (health <= 0)
         {
@@ -238,6 +241,10 @@ public class GameManager : MonoBehaviour
         //Value is the difference added (use it to vfx)
     }
 
+    #endregion
+
+    #region Game States
+
     public void Victory()
     {
         victoryPanel.SetActive(true);
@@ -248,13 +255,11 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        playerAnim.SetTrigger("Died");
+        playerAnim.SetLayerWeight(1, 1f);
         gameOverPanel.SetActive(true);
         Time.timeScale = 0f;
     }
-
-    #endregion
-
-    #region Game States
 
     public void SceneChange(int id)
     {

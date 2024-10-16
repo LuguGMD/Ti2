@@ -93,6 +93,7 @@ public class TouchManager : MonoBehaviour
     private void Touch0Canceled(InputAction.CallbackContext context)
     {
         touch0Pressed = false;
+        GameManager.instance.playerAnim.SetTrigger("Idling");
     }
 
     private void Touch1Pressed(InputAction.CallbackContext context)
@@ -110,8 +111,16 @@ public class TouchManager : MonoBehaviour
 
     public void Attack(Transform attackPos)
     {
-        Debug.Log("Attack");
+        if(touch0PressedSide == "left")
+        {
+            GameManager.instance.playerAnim.SetTrigger("AttackedTop");
+        }
+        else
+        {
+            GameManager.instance.playerAnim.SetTrigger("AttackedBase");
+        }
         
+
         Collider[] enemiesToDamage = Physics.OverlapSphere(attackPos.position, attackRange, enemyLayer); // Gets enemies in player's attack area
         for (int i = 0; i < enemiesToDamage.Length; i++)
         {
@@ -122,7 +131,7 @@ public class TouchManager : MonoBehaviour
 
     public void Defend()
     {
-        Debug.Log("Defend");
+        GameManager.instance.playerAnim.SetTrigger("Defended");
     }
 
     private void OnDrawGizmosSelected()
