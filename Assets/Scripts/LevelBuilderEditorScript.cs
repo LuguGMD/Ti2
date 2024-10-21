@@ -22,5 +22,10 @@ public class LevelBuilderEditorScript : Editor
         {
             levelBuilder.BuildLevel();
         }
+
+        if (GUILayout.Button("Delete Enemies")) // Delete all enemies in scene
+        {
+            levelBuilder.DeleteEnemies();
+        }
     }
 }

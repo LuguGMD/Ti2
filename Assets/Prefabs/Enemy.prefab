@@ -69,6 +69,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 1
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
+  noteDuration: 0
 --- !u!1001 &3572121696867497701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -125,7 +126,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turtle
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -2676060332447100237, guid: 5e26da8da2ebc1940b83ae08d30ac42a, type: 3}
+    - {fileID: -3597338432716966168, guid: 5e26da8da2ebc1940b83ae08d30ac42a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

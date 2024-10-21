@@ -44,6 +44,8 @@ public class GameManager : MonoBehaviour
 
     public Precision precisionValues;
 
+    [Header("Control variable")]
+    public bool gamePaused = false;
 
     private void Awake()
     {
@@ -60,6 +62,8 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        gamePaused = false;
+
         UpdateComboText();
         UpdateHealthBar();
         UpdatePowerupBar();
@@ -255,10 +259,16 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        gamePaused = true;
+
+        AudioController.instance.PauseMusic();
+        
         playerAnim.SetTrigger("Died");
         playerAnim.SetLayerWeight(1, 1f);
         gameOverPanel.SetActive(true);
-        Time.timeScale = 0f;
+
+        GameObject background = GameObject.Find("Background");
+        background.GetComponent<Move>().XSpeed = 0;
     }
 
     public void SceneChange(int id)
@@ -266,16 +276,29 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(id);
     }
 
+    public void ResetLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Reloads active scene
+    }
+
     public void PauseGame()
     {
+        gamePaused = true;
+
         pausePanel.SetActive(true);
         Time.timeScale = 0f;
+
+        AudioController.instance.PauseMusic();
     }
 
     public void UnpauseGame()
     {
+        gamePaused = false;
+
         pausePanel.SetActive(false);
         Time.timeScale = 1f;
+
+        AudioController.instance.PlayMusic();
     }
 
     public void QuitGame()

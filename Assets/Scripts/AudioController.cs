@@ -7,7 +7,7 @@ public class AudioController : MonoBehaviour
 {
     public static AudioController instance;
 
-    [SerializeField] private AudioMixer audioMixer;
+    [SerializeField] AudioMixer audioMixer;
     [SerializeField] private AudioSource bgAudioSoruce;
     [SerializeField] private AudioSource enemiesAudioSoruce;
     [SerializeField] private AudioSource sfxAudioSource;
@@ -25,8 +25,22 @@ public class AudioController : MonoBehaviour
         }
     }
 
+    public void PlayMusic()
+    {
+        bgAudioSoruce.Play();
+        enemiesAudioSoruce.Play();
+    }
+
+    public void PauseMusic()
+    {
+        bgAudioSoruce.Pause();
+        enemiesAudioSoruce.Pause();
+    }
+
     public void PlayEnemySounds(float fadeOutStart)
     {
+        // Unmutes the part of the soundtrack composed by the enemies when the player hits an enemy
+
         StopAllCoroutines();
         audioMixer.SetFloat("EnemySoundsVolume", 0);  // Unmutes EnemySounds audio mixer group
 

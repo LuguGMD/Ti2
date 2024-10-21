@@ -11,7 +11,6 @@ public class TouchManager : MonoBehaviour
     public float attackRange;
     public LayerMask enemyLayer;
 
-    private bool touch0Pressed = false;
     private string touch0PressedSide;
 
 
@@ -51,8 +50,6 @@ public class TouchManager : MonoBehaviour
             GameManager.instance.health = 100;
             GameManager.instance.UpdateHealthBar();
         }
-
-        //Debug.Log(touch0Pressed);
     }
 
     private void OnEnable()
@@ -74,27 +71,28 @@ public class TouchManager : MonoBehaviour
     private void Touch0Pressed(InputAction.CallbackContext context)
     {
         Vector2 position = touch0PositionAction.ReadValue<Vector2>();
-        touch0Pressed = true;
 
 
         // If the player touches the left side of the screen, attack at upper lane. Else, attack at bottom lane
         if (position.x < Screen.width / 2)
         {
-            Attack(upperLaneAttackPos);
             touch0PressedSide = "left";
+            Attack(upperLaneAttackPos);
         }
         else
         {
-            Attack(bottomLaneAttackPos);
             touch0PressedSide = "right";
+            Attack(bottomLaneAttackPos);
         }
     }
 
     private void Touch0Canceled(InputAction.CallbackContext context)
     {
-        touch0Pressed = false;
-        if(GameManager.instance.playerAnim.GetCurrentAnimatorStateInfo(0).IsTag("Attacking"))
-        GameManager.instance.playerAnim.SetTrigger("Idling");
+        if (GameManager.instance.playerAnim.GetCurrentAnimatorStateInfo(0).IsTag("Attacking"))
+        {
+            GameManager.instance.playerAnim.SetTrigger("Idling");
+        }
+        
     }
 
     private void Touch1Pressed(InputAction.CallbackContext context)
@@ -112,21 +110,24 @@ public class TouchManager : MonoBehaviour
 
     public void Attack(Transform attackPos)
     {
-        if(touch0PressedSide == "left")
+        if (!GameManager.instance.gamePaused)
         {
-            GameManager.instance.playerAnim.SetTrigger("AttackedTop");
-        }
-        else
-        {
-            GameManager.instance.playerAnim.SetTrigger("AttackedBase");
-        }
-        
+            if (touch0PressedSide == "left")
+            {
+                GameManager.instance.playerAnim.SetTrigger("AttackedTop");
+            }
+            else
+            {
+                GameManager.instance.playerAnim.SetTrigger("AttackedBase");
+            }
 
-        Collider[] enemiesToDamage = Physics.OverlapSphere(attackPos.position, attackRange, enemyLayer); // Gets enemies in player's attack area
-        for (int i = 0; i < enemiesToDamage.Length; i++)
-        {
-            float precision = Mathf.Abs(attackPos.position.x - enemiesToDamage[i].transform.position.x);
-            enemiesToDamage[i].GetComponent<EnemyBehaviour>().Damage(precision);
+
+            Collider[] enemiesToDamage = Physics.OverlapSphere(attackPos.position, attackRange, enemyLayer); // Gets enemies in player's attack area
+            for (int i = 0; i < enemiesToDamage.Length; i++)
+            {
+                float precision = Mathf.Abs(attackPos.position.x - enemiesToDamage[i].transform.position.x);
+                enemiesToDamage[i].GetComponent<EnemyBehaviour>().Damage(precision);
+            }
         }
     }
 
