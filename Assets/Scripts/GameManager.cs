@@ -130,6 +130,7 @@ public class GameManager : MonoBehaviour
         {
             health -= damage;
             UpdateHealthBar();
+            StartCoroutine(Camera.main.GetComponent<CameraShake>().Shake()); // Activates Camera Shake
         }
 
         // Breaks combo
@@ -259,14 +260,15 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        gamePaused = true;
+        gamePaused = true; // Used to deactivate player input
 
-        AudioController.instance.PauseMusic();
+        AudioController.instance.ChangeBGMusic(0);
         
         playerAnim.SetTrigger("Died");
         playerAnim.SetLayerWeight(1, 1f);
         gameOverPanel.SetActive(true);
 
+        // Stops background and enemies motion
         GameObject background = GameObject.Find("Background");
         background.GetComponent<Move>().XSpeed = 0;
     }
