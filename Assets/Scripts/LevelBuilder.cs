@@ -46,21 +46,33 @@ public class LevelBuilder : MonoBehaviour
             {
                 case "C0":
                     break;
+                case "C1":
+                    break;
                 case "D0":
-                    position = new Vector3(positionX, enemyPrefabs[1].transform.position.y, enemyPrefabs[1].transform.position.z);
-                    enemy = Instantiate(enemyPrefabs[1], position, enemyPrefabs[1].transform.rotation, enemiesParent);
+                    position = new Vector3(positionX, enemyPrefabs[2].transform.position.y, enemyPrefabs[2].transform.position.z);
+                    enemy = Instantiate(enemyPrefabs[2], position, enemyPrefabs[2].transform.rotation, enemiesParent);
                     enemy.GetComponent<EnemyBehaviour>().noteDuration = note.duration;
+                    break;
+                case "D1":
                     break;
                 case "E0":
                     break;
+                case "E1":
+                    break;
                 case "F0":
                     break;
+                case "F1":
+                    break;
                 case "G0":
-                    position = new Vector3(positionX, enemyPrefabs[4].transform.position.y, enemyPrefabs[4].transform.position.z);
-                    enemy = Instantiate(enemyPrefabs[4], position, enemyPrefabs[4].transform.rotation, enemiesParent);
+                    break;
+                case "G1":
+                    position = new Vector3(positionX, enemyPrefabs[9].transform.position.y, enemyPrefabs[9].transform.position.z);
+                    enemy = Instantiate(enemyPrefabs[9], position, enemyPrefabs[9].transform.rotation, enemiesParent);
                     enemy.GetComponent<EnemyBehaviour>().noteDuration = note.duration;
                     break;
                 case "A0":
+                    break;
+                case "A1":
                     break;
             }
         }
