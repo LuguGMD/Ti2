@@ -28,6 +28,20 @@ public class AudioController : MonoBehaviour
         }
     }
 
+    public void Start()
+    {
+        // Sets audio groups volume
+        float volume = ConvertToDB(PlayerPrefs.GetFloat("MusicVolume", 1));
+        audioMixer.SetFloat("MusicVolume", volume);
+        volume = ConvertToDB(PlayerPrefs.GetFloat("SFXVolume", 1));
+        audioMixer.SetFloat("SFXVolume", volume);
+    }
+
+    public float ConvertToDB(float value)
+    {
+        return Mathf.Log10(value) * 20;
+    }
+
     public void PlayMusic()
     {
         bgAudioSoruce.Play();

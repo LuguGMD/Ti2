@@ -10542,7 +10542,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: becf9826078040b4484d8f3f7a06b2ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 606116472}
 --- !u!54 &509568095
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -44274,7 +44273,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e626a154fecbaaf43a219f946cc7e7d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 606116472}
 --- !u!1001 &2070560713
 PrefabInstance:
   m_ObjectHideFlags: 0
