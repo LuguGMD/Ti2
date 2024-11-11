@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3409423548465933201}
   - component: {fileID: 6045373634375568920}
   - component: {fileID: 4695207523506304138}
-  - component: {fileID: -2676060332447100237}
   - component: {fileID: -3597338432716966168}
+  - component: {fileID: 1730054178719809860}
   m_Layer: 6
   m_Name: TurtleGround
   m_TagString: Enemy
@@ -85,20 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &-2676060332447100237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7917100539681693099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1c8782f577e9ff4483492a79a059f9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 1
-  collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
 --- !u!65 &-3597338432716966168
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -120,3 +106,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.4753804, y: 0.81665456, z: 1.8149419}
   m_Center: {x: 3.7077587e-14, y: 0.40708822, z: 0.16306894}
+--- !u!114 &1730054178719809860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7917100539681693099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
+  noteDuration: 0

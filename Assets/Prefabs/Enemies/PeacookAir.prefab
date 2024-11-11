@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5253497425677806458}
   - component: {fileID: 625678559849407852}
   - component: {fileID: 5073234782891465770}
-  - component: {fileID: -2349221811040061337}
+  - component: {fileID: 3609736470392731684}
   m_Layer: 6
   m_Name: PeacookAir
   m_TagString: Enemy
@@ -106,7 +106,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-2349221811040061337
+--- !u!114 &3609736470392731684
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,8 +115,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3907125306538205171}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1c8782f577e9ff4483492a79a059f9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
+  noteDuration: 0
