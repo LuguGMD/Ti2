@@ -18,7 +18,14 @@ public class SaveManager : MonoBehaviour
     {
         PlayerData playerData = saveSystem.LoadPlayerData();
 
-        if (playerData != null)
+        if (playerData == null)
+        {
+            // If there is no save, create a default save
+            PlayerData defaultSave = new PlayerData(2);
+            defaultSave.SetLevelInfo(0, 0, true, 0);
+            saveSystem.SavePlayerData(defaultSave);
+        }
+        else
         {
             // Updates levels info in the level selection screen 
             for (int i = 0; i < playerData.levels.Length; i++)

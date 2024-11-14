@@ -8,4 +8,11 @@ public class Level
     public int coins;
     public int score;
     public bool unlocked;
+
+    public Level(int coins, int score, bool unlocked)
+    {
+        this.coins = coins;
+        this.score = score;
+        this.unlocked = unlocked;
+    }
 }
