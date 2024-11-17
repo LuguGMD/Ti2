@@ -20,6 +20,8 @@ public class TouchManager : MonoBehaviour
     private InputAction touch0PressAction;
     private InputAction touch1PressAction;
 
+    [SerializeField] private bool attacking = false;
+
 
     private void Awake()
     {
@@ -37,13 +39,6 @@ public class TouchManager : MonoBehaviour
     {
         var activeTouches = UnityEngine.InputSystem.EnhancedTouch.Touch.activeTouches;
 
-        //if (activeTouches.Count == 2 && activeTouches[0].phase == UnityEngine.InputSystem.TouchPhase.Began && activeTouches[1].phase == UnityEngine.InputSystem.TouchPhase.Began)
-        //{
-        //   if ((activeTouches[0].screenPosition.x < Screen.width/2 && activeTouches[1].screenPosition.x > Screen.width / 2) || activeTouches[1].screenPosition.x < Screen.width / 2 && activeTouches[0].screenPosition.x > Screen.width / 2)
-        //    {
-        //        Defend();
-        //    }
-        //}
         if (activeTouches.Count == 5)
         {
             GameManager.instance.invincible = true;
@@ -97,9 +92,7 @@ public class TouchManager : MonoBehaviour
 
     private void Touch1Pressed(InputAction.CallbackContext context)
     {
-        Debug.Log("Touch1");
         Vector2 position = touch1PositionAction.ReadValue<Vector2>();
-        Debug.Log(position);
 
         if ((touch0PressedSide == "left" && position.x > Screen.width / 2) || (touch0PressedSide == "right" && position.x < Screen.width / 2))
         {
@@ -112,28 +105,61 @@ public class TouchManager : MonoBehaviour
     {
         if (!GameManager.instance.gamePaused)
         {
-            if (touch0PressedSide == "left")
+            if (!attacking)
             {
-                GameManager.instance.playerAnim.SetTrigger("AttackedTop");
+                attacking = true;
+                if (touch0PressedSide == "left")
+                {
+                    GameManager.instance.playerAnim.SetTrigger("AttackedTop");
+                }
+                else
+                {
+                    GameManager.instance.playerAnim.SetTrigger("AttackedBase");
+                }
             }
-            else
-            {
-                GameManager.instance.playerAnim.SetTrigger("AttackedBase");
-            }
+            
 
-
-            Collider[] enemiesToDamage = Physics.OverlapSphere(attackPos.position, attackRange, enemyLayer); // Gets enemies in player's attack area
-            for (int i = 0; i < enemiesToDamage.Length; i++)
+            Collider[] enemyToDamage = Physics.OverlapSphere(attackPos.position, attackRange, enemyLayer); // Gets the firts enemy in player's attack area
+            if (enemyToDamage.Length != 0)
             {
-                float precision = Mathf.Abs(attackPos.position.x - enemiesToDamage[i].transform.position.x);
-                enemiesToDamage[i].GetComponent<EnemyBehaviour>().Damage(precision);
+                float precision = Mathf.Abs(attackPos.position.x - enemyToDamage[0].transform.position.x);
+                enemyToDamage[0].GetComponent<EnemyBehaviour>().NextState(PlayerInputs.Attack, precision);
             }
         }
     }
 
     public void Defend()
     {
+        Collider[] enemiesToDamage = new Collider[2];
+        Collider[] enemiesInArea = Physics.OverlapSphere(bottomLaneAttackPos.position, attackRange, enemyLayer); // Gets the enemies in player's bottom attack area 
+
+        if (enemiesInArea.Length != 0)
+        {
+            enemiesToDamage[0] = enemiesInArea[0]; // Gets the firts enemy in player's bottom attack area 
+        }
+
+        enemiesInArea = Physics.OverlapSphere(upperLaneAttackPos.position, attackRange, enemyLayer); // Gets the enemies in player's bottom attack area 
+
+        if (enemiesInArea.Length != 0)
+        {
+            enemiesToDamage[1] = enemiesInArea[0];  // Gets the firts enemy in player's bottom attack area 
+        }
+
+        for (int i = 0; i < enemiesToDamage.Length; i++)
+        {
+            if (enemiesToDamage[i] != null)
+            {
+                float precision = Mathf.Abs(bottomLaneAttackPos.position.x - enemiesToDamage[i].transform.position.x);
+                enemiesToDamage[i].GetComponent<EnemyBehaviour>().NextState(PlayerInputs.Defend, precision);
+            }
+        }
+
         GameManager.instance.playerAnim.SetTrigger("Defended");
+    }
+
+    public void SetAttacking(bool input)
+    {
+        attacking = input;
     }
 
     private void OnDrawGizmosSelected()

@@ -2,23 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyBehaviour : MonoBehaviour
+public abstract class EnemyBehaviour : MonoBehaviour
 {
-    public int health = 1;
     public GameObject collectableEffect;
-    public float noteDuration;
+    public float[] notesDuration;
+    public float[] nextPositions;
 
-    public void Damage(float precision)
+    public abstract void NextState(PlayerInputs input, float precision);
+
+    /*public void Damage(float precision)
     {
-        health--;
         AudioController.instance.PlayEnemySounds(noteDuration); // Plays the music when the enemy is hit
 
-        if (health <= 0)
-        {
-            GameManager.instance.AddPoint();
-            GameManager.instance.AddScore(precision);
-            Instantiate(collectableEffect, transform.position, Quaternion.identity);
-            Destroy(gameObject); // Kills enemy if health reaches 0
-        }
+        GameManager.instance.AddPoint();
+        GameManager.instance.AddScore(precision);
+        Instantiate(collectableEffect, transform.position, Quaternion.identity);
+        Destroy(gameObject); // Kills enemy if health reaches 0
+    }*/
+
+    public virtual void Death(float precision)
+    {
+        GameManager.instance.AddPoint();
+        GameManager.instance.AddScore(precision);
+        Instantiate(collectableEffect, transform.position, Quaternion.identity);
+        Destroy(gameObject); // Kills enemy if health reaches 0
     }
 }
