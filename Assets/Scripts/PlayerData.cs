@@ -8,15 +8,9 @@ public class PlayerData
     public Level[] levels;
     public int currentCoins;
 
-    public PlayerData(int numberOfLevels)
+    public PlayerData(int levelsLength)
     {
-        levels = new Level[numberOfLevels];
+        levels = new Level[levelsLength];
         currentCoins = 0;
-    }
-
-    public void SetLevelInfo(int coins, int score, bool unlocked, int levelId)
-    {
-        Level level = new Level(coins, score, unlocked);
-        levels[levelId] = level;
     }
 }

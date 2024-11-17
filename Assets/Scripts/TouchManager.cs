@@ -20,8 +20,6 @@ public class TouchManager : MonoBehaviour
     private InputAction touch0PressAction;
     private InputAction touch1PressAction;
 
-    [SerializeField] private bool attacking = false;
-
 
     private void Awake()
     {
@@ -105,19 +103,14 @@ public class TouchManager : MonoBehaviour
     {
         if (!GameManager.instance.gamePaused)
         {
-            if (!attacking)
+            if (touch0PressedSide == "left")
             {
-                attacking = true;
-                if (touch0PressedSide == "left")
-                {
-                    GameManager.instance.playerAnim.SetTrigger("AttackedTop");
-                }
-                else
-                {
-                    GameManager.instance.playerAnim.SetTrigger("AttackedBase");
-                }
+                GameManager.instance.playerAnim.SetTrigger("AttackedTop");
             }
-            
+            else
+            {
+                GameManager.instance.playerAnim.SetTrigger("AttackedBase");
+            }
 
             Collider[] enemyToDamage = Physics.OverlapSphere(attackPos.position, attackRange, enemyLayer); // Gets the firts enemy in player's attack area
             if (enemyToDamage.Length != 0)
@@ -155,11 +148,6 @@ public class TouchManager : MonoBehaviour
         }
 
         GameManager.instance.playerAnim.SetTrigger("Defended");
-    }
-
-    public void SetAttacking(bool input)
-    {
-        attacking = input;
     }
 
     private void OnDrawGizmosSelected()
