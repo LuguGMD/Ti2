@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System;
-//using UnityEditor.ShaderGraph.Internal;
+using UnityEditor.ShaderGraph.Internal;
 
 public class GameManager : MonoBehaviour
 {
@@ -24,9 +24,9 @@ public class GameManager : MonoBehaviour
     public float powerupDuration;
 
     [Header("HUD")]
-    private int coins; // Number of coins the player has gotten in the current level
-    public TMP_Text coinsText;
-    public TMP_Text victoryPanelCoinsText;
+    private int points;
+    public TMP_Text pointsText;
+    public TMP_Text victoryPanelPointsText;
 
     private int score;
     public TMP_Text scoreText;
@@ -46,10 +46,6 @@ public class GameManager : MonoBehaviour
 
     [Header("Control variable")]
     public bool gamePaused = false;
-
-    [Header("Save Configuration")]
-    public SaveSystem saveSystem;
-    public int currentLevelId;
 
     private void Awake()
     {
@@ -77,8 +73,8 @@ public class GameManager : MonoBehaviour
 
     public void AddPoint()
     {
-        coins++;
-        coinsText.SetText(coins.ToString());
+        points++;
+        pointsText.SetText(points.ToString());
 
         combo++;
         UpdateComboText();
@@ -257,11 +253,9 @@ public class GameManager : MonoBehaviour
     public void Victory()
     {
         victoryPanel.SetActive(true);
-        victoryPanelCoinsText.SetText(coins.ToString());
+        victoryPanelPointsText.SetText(points.ToString());
         victoryPanelScoreText.SetText(score.ToString());
         Time.timeScale = 0f;
-
-        SetPlayerData();
     }
 
     public void GameOver()
@@ -317,35 +311,6 @@ public class GameManager : MonoBehaviour
 #endif
 
         Application.Quit(); // Quit in build
-    }
-
-    // Prepares player data to save info accoding to the current level
-    public void SetPlayerData()
-    {
-        PlayerData playerData = saveSystem.LoadPlayerData();
-
-        if (playerData != null)
-        {
-            Level currentLevel = playerData.levels[currentLevelId];
-
-            if (coins > currentLevel.coins)
-            {
-                playerData.currentCoins += coins - currentLevel.coins;
-                currentLevel.coins = coins;
-            }
-
-            if (score > currentLevel.score)
-            {
-                currentLevel.score = score;
-            }
-
-            if (currentLevelId + 1 != playerData.levels.Length)
-            {
-                playerData.levels[currentLevelId + 1].unlocked = true; // Unlocks the next level
-            }
-
-            saveSystem.SavePlayerData(playerData);
-        }
     }
 
     #endregion

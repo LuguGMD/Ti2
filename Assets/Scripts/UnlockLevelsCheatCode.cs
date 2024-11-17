@@ -7,7 +7,6 @@ using UnityEngine.InputSystem.EnhancedTouch;
 public class UnlockLevelsCheatCode : MonoBehaviour
 {
     [SerializeField] GameObject level2Button;
-    [SerializeField] SaveSystem saveSystem;
 
     private void OnEnable()
     {
@@ -26,20 +25,6 @@ public class UnlockLevelsCheatCode : MonoBehaviour
         if (activeTouches.Count == 4)
         {
             level2Button.GetComponent<Button>().interactable = true;
-            SetPlayerData();
         }
-    }
-
-    // Unlocks all levels
-    public void SetPlayerData()
-    {
-        PlayerData playerData = saveSystem.LoadPlayerData();
-
-        foreach (Level level in playerData.levels)
-        {
-            level.unlocked = true;
-        }
-
-        saveSystem.SavePlayerData(playerData);
     }
 }
