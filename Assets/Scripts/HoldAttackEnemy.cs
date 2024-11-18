@@ -26,7 +26,6 @@ public class HoldAttackEnemy : EnemyBehaviour
                 StopCoroutine(holdCoroutine); // Stops coroutine responsible for adding score while holding
                 AudioController.instance.StopEnemySounds(); // Fades out enemy sounds
                 currentState = State.Death;
-                Death(precision);
             }
         }
     }
@@ -40,7 +39,6 @@ public class HoldAttackEnemy : EnemyBehaviour
         while (timer < notesDuration[0])
         {
             GameManager.instance.AddScore(4); // Bad check, adds 10 points
-            Debug.Log(timer);
             timer += scoreRate; // Adds score every 0.2 seconds
             yield return new WaitForSeconds(scoreRate);
         }
