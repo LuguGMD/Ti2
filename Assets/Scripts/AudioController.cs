@@ -72,6 +72,11 @@ public class AudioController : MonoBehaviour
         //StartCoroutine(Camera.main.GetComponent<CameraShake>().Shake()); // Activates Camera Shake
     }
 
+    public void StopEnemySounds()
+    {
+        StartCoroutine(FadeOut(0));
+    }
+
     public IEnumerator FadeOut(float fadeOutStart)
     {
         yield return new WaitForSeconds(fadeOutStart);

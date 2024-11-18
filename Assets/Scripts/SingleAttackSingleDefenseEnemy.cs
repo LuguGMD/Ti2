@@ -45,6 +45,6 @@ public class SingleAttackSingleDefenseEnemy : EnemyBehaviour
     {
         Idle = 0,
         Attacked = 1,
-        Death
+        Death = 2
     }
 }

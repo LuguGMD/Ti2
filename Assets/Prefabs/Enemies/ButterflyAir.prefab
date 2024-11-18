@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 6185884500262355345}
   - component: {fileID: 49581761965241110}
   - component: {fileID: 2118897814603787106}
-  - component: {fileID: 2478582488937983089}
-  - component: {fileID: -411607092061028489}
-  m_Layer: 0
-  m_Name: Butterfly
+  - component: {fileID: -8051967829274100887}
+  - component: {fileID: -5984726608681361342}
+  m_Layer: 6
+  m_Name: ButterflyAir
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,13 +28,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8247841104000341687}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.9768648, y: 0.7573623, z: -0.039600372}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 6.64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!33 &49581761965241110
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -85,7 +85,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2478582488937983089
+--- !u!65 &-8051967829274100887
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -100,13 +100,13 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1.1959925, y: 1.9323386, z: 0.36146232}
   m_Center: {x: 0.041178018, y: 0.20880705, z: 0.014349267}
---- !u!114 &-411607092061028489
+--- !u!114 &-5984726608681361342
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,8 +115,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8247841104000341687}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1c8782f577e9ff4483492a79a059f9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 5bbd7b3ca14fa8748a10352aef9979fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
+  notesDuration: []
+  nextPositions: []
+  scoreRate: 0.1

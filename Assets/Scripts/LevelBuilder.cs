@@ -85,6 +85,11 @@ public class LevelBuilder : MonoBehaviour
                 case "F0":
                     break;
                 case "F1":
+                    position = new Vector3(positionX, enemyPrefabs[7].transform.position.y, enemyPrefabs[7].transform.position.z);
+                    enemy = Instantiate(enemyPrefabs[7], position, enemyPrefabs[7].transform.rotation, enemiesParent);
+
+                    enemy.GetComponent<EnemyBehaviour>().notesDuration = new float[1];
+                    enemy.GetComponent<EnemyBehaviour>().notesDuration[0] = notes[i].duration;
                     break;
                 case "G0":
                     break;

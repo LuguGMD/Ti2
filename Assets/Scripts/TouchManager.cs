@@ -20,7 +20,8 @@ public class TouchManager : MonoBehaviour
     private InputAction touch0PressAction;
     private InputAction touch1PressAction;
 
-    [SerializeField] private bool attacking = false;
+    private bool attacking = false;
+    private Collider attackedEnemy;
 
 
     private void Awake()
@@ -87,7 +88,14 @@ public class TouchManager : MonoBehaviour
         {
             GameManager.instance.playerAnim.SetTrigger("Idling");
         }
-        
+
+        // Change hold enemy state when the player releases the screen
+        if (attackedEnemy != null)
+        {
+            attackedEnemy.GetComponent<EnemyBehaviour>().NextState(PlayerInputs.Release, 4);
+            attackedEnemy = null;
+        }
+
     }
 
     private void Touch1Pressed(InputAction.CallbackContext context)
@@ -122,8 +130,9 @@ public class TouchManager : MonoBehaviour
             Collider[] enemyToDamage = Physics.OverlapSphere(attackPos.position, attackRange, enemyLayer); // Gets the firts enemy in player's attack area
             if (enemyToDamage.Length != 0)
             {
+                attackedEnemy = enemyToDamage[0];
                 float precision = Mathf.Abs(attackPos.position.x - enemyToDamage[0].transform.position.x);
-                enemyToDamage[0].GetComponent<EnemyBehaviour>().NextState(PlayerInputs.Attack, precision);
+                attackedEnemy.GetComponent<EnemyBehaviour>().NextState(PlayerInputs.Attack, precision);
             }
         }
     }
