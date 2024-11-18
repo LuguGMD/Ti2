@@ -8,7 +8,7 @@ public abstract class EnemyBehaviour : MonoBehaviour
     public float[] notesDuration;
     public float[] nextPositions;
 
-    private Transform playerTransform;
+    protected Transform playerTransform;
 
     private void Start()
     {
