@@ -85,13 +85,13 @@ AnimatorController:
   m_Name: ImageOptions
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: ButtonOptions
+  - m_Name: SwordFall
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: ButtonBack
+  - m_Name: SwordUp
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -125,7 +125,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: ButtonBack
+    m_ConditionEvent: SwordUp
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -189686596560521655}
@@ -150,7 +150,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: ButtonOptions
+    m_ConditionEvent: SwordFall
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1583813925110347638}
@@ -180,7 +180,7 @@ AnimatorStateMachine:
     m_Position: {x: 310, y: 10, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1583813925110347638}
-    m_Position: {x: 280, y: 250, z: 0}
+    m_Position: {x: 300, y: 250, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -189686596560521655}
     m_Position: {x: 550, y: 140, z: 0}
@@ -216,7 +216,7 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 809ec0843cf2fc742982039f171eb666, type: 2}
-  m_Tag: 
+  m_Tag: IDLE
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
