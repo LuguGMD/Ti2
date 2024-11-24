@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-
+#if UNITY_EDITOR
 // This script adds buttons in the LevelBuilder script inspector to trigger the read json method and the build level method during Editor mode
 [CustomEditor(typeof(LevelBuilder))]
 public class LevelBuilderEditorScript : Editor
@@ -29,3 +29,4 @@ public class LevelBuilderEditorScript : Editor
         }
     }
 }
+#endif

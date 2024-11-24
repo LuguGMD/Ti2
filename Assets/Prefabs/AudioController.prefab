@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 6797091508806148106}
   - component: {fileID: 209360424701840916}
   m_Layer: 0
-  m_Name: EnemySoundsAudioSource
+  m_Name: EnemySongAudioSource
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -170,7 +170,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 8989474533690853958, guid: e045ba8d6794df2439e4ba31bf3085f0, type: 2}
-  m_audioClip: {fileID: 8300000, guid: a406571dfd0f1c34cb968654ca5f384d, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -352,7 +352,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -4656403408957196453, guid: e045ba8d6794df2439e4ba31bf3085f0, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 6a4c795938bba5b40af5fa0230dc364a, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
