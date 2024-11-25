@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour
     public float powerupValue;
     public Slider powerupBar;
     public bool powerupActive = false;
+    [Range(1f,5f)]
+    public float powerupMult;
 
     public float powerupDuration;
 
@@ -172,7 +174,7 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                powerupValue += precisionValues.badCheck - precision;
+                powerupValue += (precisionValues.badCheck - precision)*powerupMult;
             }
 
             powerupValue = Mathf.Clamp(powerupValue, 0, 100); 
