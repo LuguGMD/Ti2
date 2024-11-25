@@ -613,11 +613,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 102074372}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -191, y: 0.000019073}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: -70, y: 0}
   m_SizeDelta: {x: 137.0413, y: 132.7361}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &186267729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -688,11 +688,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1897159441}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -191, y: 0.000019073}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: -70, y: -0.0000038146973}
   m_SizeDelta: {x: 137.0413, y: 132.7361}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &192035700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1598,7 +1598,7 @@ Animator:
   m_GameObject: {fileID: 476839779}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ca8984410900b7448829e9e0a663a329, type: 2}
+  m_Controller: {fileID: 9100000, guid: 22ea7b1b528cb3f4eb3fea2b0e0c4155, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1775,11 +1775,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 102074372}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 157, y: 16}
-  m_SizeDelta: {x: 73.0589, y: 37.799}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -26.2, y: -7.32}
+  m_SizeDelta: {x: 73.0589, y: 37.798996}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &530011528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2105,7 +2105,7 @@ Animator:
   m_GameObject: {fileID: 570253012}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5d970cacc1b663048a5995c381f952e6, type: 2}
+  m_Controller: {fileID: 9100000, guid: ac1fee6e87ed359418bdbe518f74f509, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2227,18 +2227,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 570253016}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: ButtonBack
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1933301014}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
@@ -2266,6 +2254,18 @@ MonoBehaviour:
       - m_Target: {fileID: 841615546}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1647587050}
+        m_TargetAssemblyTypeName: AnimationToggle, Assembly-CSharp
+        m_MethodName: AnimateSword
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3876,7 +3876,7 @@ Animator:
   m_GameObject: {fileID: 1177301530}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1d1c7355eca48974ea8dcb5782082cb8, type: 2}
+  m_Controller: {fileID: 9100000, guid: c8d8e65a05214a54bb93457a4646646b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4346,11 +4346,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1897159441}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 158.3, y: 0.0000061989}
-  m_SizeDelta: {x: 103.4107, y: 37.799}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -15.13, y: 0}
+  m_SizeDelta: {x: 103.410706, y: 37.799}
+  m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1254314329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4480,11 +4480,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 102074372}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 154.3, y: -11.799988}
-  m_SizeDelta: {x: 103.4107, y: 37.799}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -15.13, y: 0}
+  m_SizeDelta: {x: 103.410706, y: 37.799}
+  m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1270938439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4900,10 +4900,10 @@ RectTransform:
   - {fileID: 334464356}
   m_Father: {fileID: 1816839599}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -272.74, y: 501.4}
-  m_SizeDelta: {x: 129.6393, y: 121.3764}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 190.79999, y: -118.1}
+  m_SizeDelta: {x: 129.63928, y: 121.3764}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1359752863
 MonoBehaviour:
@@ -5143,30 +5143,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1486093518}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: 
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1486093523}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PressedOneButton
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1690984095}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -5189,30 +5165,6 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1911205311}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: StopColorT
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1933301014}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: StopButtonColor
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1177301534}
@@ -5287,7 +5239,7 @@ Animator:
   m_GameObject: {fileID: 1486093518}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 704decc7ba8d87a47b9716c6f7634938, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9c989ee3e21318b49a09d494051ae5bb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5907,6 +5859,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1933301014}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1647587047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5958,6 +5922,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 570253016}
+  disableMenus:
+  - {fileID: 1177301530}
+  - {fileID: 1690984095}
+  - {fileID: 476839779}
 --- !u!1 &1690984095
 GameObject:
   m_ObjectHideFlags: 0
@@ -6046,7 +6014,7 @@ Animator:
   m_GameObject: {fileID: 1690984095}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9409d8a84fafb404c9532ad0984819c4, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5c34a095388fd734fa5d88ce1aeecf22, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -6715,11 +6683,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1897159441}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 161, y: 27.8}
-  m_SizeDelta: {x: 73.0589, y: 37.799}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -26.199997, y: -7.32}
+  m_SizeDelta: {x: 73.0589, y: 37.798996}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &1876756206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7073,18 +7041,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 476839779}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1177301530}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -7109,41 +7065,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1911205311}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
+      - m_Target: {fileID: 476839779}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ThreeColor
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1933301014}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: twoButtons
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1486093523}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PressedOneButton
-          m_BoolArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 476839783}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
@@ -7217,7 +7149,7 @@ Animator:
   m_GameObject: {fileID: 1911205306}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8b271fd8bf3af1b46b3ec8c31586384a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 17c2f067e97b5904a96e323def5c5903, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7348,42 +7280,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1933301014}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: twoButtons
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1486093523}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PressedOneButton
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1911205311}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: StopColorT
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1690984099}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
@@ -7456,7 +7352,7 @@ Animator:
   m_GameObject: {fileID: 1933301009}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8aee8c32bdf88484da7002518f69f63b, type: 2}
+  m_Controller: {fileID: 9100000, guid: c3cb0b023d64dab4eb553d3aefea1bfb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

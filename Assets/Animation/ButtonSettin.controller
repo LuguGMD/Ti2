@@ -31,7 +31,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ButtonSettin
+  m_Name: PressedOneButton
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: PressedOneButton
@@ -105,7 +105,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: f9dbc6b8321144f4ca74656d00b575b5, type: 2}
+  m_Motion: {fileID: 7400000, guid: 8cbaf55e55644624c856cd784cb72d34, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
