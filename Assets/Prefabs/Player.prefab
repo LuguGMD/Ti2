@@ -247,7 +247,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1414404855
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &1933609435957114737
@@ -333,7 +333,7 @@ GameObject:
   - component: {fileID: 3012200138285954344}
   - component: {fileID: 8678028087675590070}
   - component: {fileID: 9050997738723799260}
-  - component: {fileID: 2997592805975742313}
+  - component: {fileID: 5918592786254720027}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -411,7 +411,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2997592805975742313
+--- !u!114 &5918592786254720027
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

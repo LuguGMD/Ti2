@@ -277,8 +277,8 @@ public class GameManager : MonoBehaviour
         gameOverPanel.SetActive(true);
 
         // Stops background and enemies motion
-        GameObject background = GameObject.Find("Player");
-        background.GetComponent<Move>().XSpeed = 0;
+        GameObject player = GameObject.Find("Player");
+        player.GetComponent<Move>().XSpeed = 0;
     }
 
     public void SceneChange(int id)
