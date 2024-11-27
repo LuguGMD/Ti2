@@ -273,6 +273,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 67f68ac145ce4534ab28d2317ffcaaa3, type: 2}
     - target: {fileID: 4581914737326486179, guid: 8cbae775798fddb458d747fcd740c4fe, type: 3}
+      propertyPath: swordAnim
+      value: 
+      objectReference: {fileID: 2074030005}
+    - target: {fileID: 4581914737326486179, guid: 8cbae775798fddb458d747fcd740c4fe, type: 3}
+      propertyPath: playerAnim
+      value: 
+      objectReference: {fileID: 478774642}
+    - target: {fileID: 4581914737326486179, guid: 8cbae775798fddb458d747fcd740c4fe, type: 3}
       propertyPath: powerupMult
       value: 1
       objectReference: {fileID: 0}
@@ -578,39 +586,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7116555272275240858, guid: b4a1d5603c54a1f4aadd4b98001aeb60, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 674.07
+      value: 672.7
       objectReference: {fileID: 0}
     - target: {fileID: 7116555272275240858, guid: b4a1d5603c54a1f4aadd4b98001aeb60, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 534.643
+      value: 533.7
       objectReference: {fileID: 0}
     - target: {fileID: 7116555272275240858, guid: b4a1d5603c54a1f4aadd4b98001aeb60, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -266.806
+      value: -268.21
       objectReference: {fileID: 0}
     - target: {fileID: 7116555272275240858, guid: b4a1d5603c54a1f4aadd4b98001aeb60, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.19399635
+      value: 0.007267507
       objectReference: {fileID: 0}
     - target: {fileID: 7116555272275240858, guid: b4a1d5603c54a1f4aadd4b98001aeb60, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.9755089
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7116555272275240858, guid: b4a1d5603c54a1f4aadd4b98001aeb60, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.020220948
+      value: 0.9999736
       objectReference: {fileID: 0}
     - target: {fileID: 7116555272275240858, guid: b4a1d5603c54a1f4aadd4b98001aeb60, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.101680785
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7116555272275240858, guid: b4a1d5603c54a1f4aadd4b98001aeb60, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -157.505
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7116555272275240858, guid: b4a1d5603c54a1f4aadd4b98001aeb60, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 11.901001
+      value: 179.167
       objectReference: {fileID: 0}
     - target: {fileID: 7116555272275240858, guid: b4a1d5603c54a1f4aadd4b98001aeb60, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1858,6 +1866,11 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!95 &478774642 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3915503634906870861, guid: f87caa9638c0c0b46a3d3160f22b56b9, type: 3}
+  m_PrefabInstance: {fileID: 610232339}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &485538646
 GameObject:
   m_ObjectHideFlags: 0
@@ -2856,6 +2869,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1259701895610544807, guid: f87caa9638c0c0b46a3d3160f22b56b9, type: 3}
+      propertyPath: m_Name
+      value: PlayerRig
+      objectReference: {fileID: 0}
     - target: {fileID: 3109306899801284673, guid: f87caa9638c0c0b46a3d3160f22b56b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 672.7
@@ -8849,6 +8866,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2005268951}
   m_CullTransparentMesh: 1
+--- !u!95 &2074030005 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 20240695368537089, guid: b4a1d5603c54a1f4aadd4b98001aeb60, type: 3}
+  m_PrefabInstance: {fileID: 126963323}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2091911583
 GameObject:
   m_ObjectHideFlags: 0

@@ -87,6 +87,7 @@ public class TouchManager : MonoBehaviour
         if (GameManager.instance.playerAnim.GetCurrentAnimatorStateInfo(0).IsTag("Attacking"))
         {
             GameManager.instance.playerAnim.SetTrigger("Idling");
+            GameManager.instance.swordAnim.SetTrigger("Idling");
         }
 
         // Change hold enemy state when the player releases the screen
@@ -119,10 +120,12 @@ public class TouchManager : MonoBehaviour
                 if (touch0PressedSide == "left")
                 {
                     GameManager.instance.playerAnim.SetTrigger("AttackedTop");
+                    GameManager.instance.swordAnim.SetTrigger("AttackedTop");
                 }
                 else
                 {
                     GameManager.instance.playerAnim.SetTrigger("AttackedBase");
+                    GameManager.instance.swordAnim.SetTrigger("AttackedBase");
                 }
             }
             
@@ -164,6 +167,7 @@ public class TouchManager : MonoBehaviour
         }
 
         GameManager.instance.playerAnim.SetTrigger("Defended");
+        GameManager.instance.swordAnim.SetTrigger("Defended");
     }
 
     public void SetAttacking(bool input)

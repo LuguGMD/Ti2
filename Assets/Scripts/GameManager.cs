@@ -14,7 +14,8 @@ public class GameManager : MonoBehaviour
 
     public static GameManager instance;
     public Animator playerAnim;
-    
+    public Animator swordAnim;
+
     [Header("Health")]
     public int health = 100;
     public Slider healthBar;
@@ -78,6 +79,15 @@ public class GameManager : MonoBehaviour
         UpdateComboText();
         UpdateHealthBar();
         UpdatePowerupBar();
+
+        if(SceneManager.GetActiveScene().buildIndex == 0)
+        {
+            //playerAnim.SetTrigger("Died");
+            //swordAnim.SetTrigger("Died");
+            playerAnim.SetLayerWeight(2, 1f);
+            swordAnim.SetLayerWeight(2, 1f);
+        }
+
     }
 
     #region Values
@@ -149,6 +159,7 @@ public class GameManager : MonoBehaviour
         comboText.enabled = false;
 
         playerAnim.SetTrigger("Damaged");
+        swordAnim.SetTrigger("Damaged");
 
         // Game Over trigger
         if (health <= 0)
@@ -234,20 +245,25 @@ public class GameManager : MonoBehaviour
 
     void UpdateComboText()
     {
-        comboText.SetText(combo + "  Combo");
-        if (combo >= 5)
+        if (comboText != null)
         {
-            comboText.enabled = true; // Enables combo count if combo is greater than 5
+            comboText.SetText(combo + "  Combo");
+            if (combo >= 5)
+            {
+                comboText.enabled = true; // Enables combo count if combo is greater than 5
+            }
         }
     }
 
     void UpdatePowerupBar()
     {
+        if (powerupBar != null)
         powerupBar.value = powerupValue;
     }
 
     public void UpdateHealthBar()
     {
+        if(healthBar != null)
         healthBar.value = health;
     }
 
@@ -278,7 +294,9 @@ public class GameManager : MonoBehaviour
         AudioController.instance.ChangeBGMusic(0);
         
         playerAnim.SetTrigger("Died");
+        swordAnim.SetTrigger("Died");
         playerAnim.SetLayerWeight(1, 1f);
+        swordAnim.SetLayerWeight(1, 1f);
         gameOverPanel.SetActive(true);
 
         // Stops background and enemies motion
