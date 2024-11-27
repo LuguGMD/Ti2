@@ -3244,6 +3244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2320827361945338298}
   - component: {fileID: 2883015570812394609}
+  - component: {fileID: 5640693668248966234}
   m_Layer: 0
   m_Name: PlayerMesh
   m_TagString: Untagged
@@ -3399,6 +3400,18 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0000000016298145, y: -0.001647064, z: 0.007943714}
     m_Extent: {x: 0.0062805675, y: 0.006250447, z: 0.00858905}
   m_DirtyAABB: 0
+--- !u!114 &5640693668248966234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7858590546041237097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0a333a2100a7ea49b29b5e1f4729509, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7864673965441642859
 GameObject:
   m_ObjectHideFlags: 0

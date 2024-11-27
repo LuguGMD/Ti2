@@ -9,9 +9,12 @@ using System;
 
 public class GameManager : MonoBehaviour
 {
+    public Material baseSkin;
+    public static Material playerSkin;
+
     public static GameManager instance;
     public Animator playerAnim;
-
+    
     [Header("Health")]
     public int health = 100;
     public Slider healthBar;
@@ -55,6 +58,8 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        if (playerSkin == null) playerSkin = baseSkin;
+
         Time.timeScale = 1f;
         if (instance == null)
         {

@@ -1527,6 +1527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8294291192623242629}
   - component: {fileID: 9095004963798063171}
+  - component: {fileID: 7616063491558537961}
   m_Layer: 0
   m_Name: Sword
   m_TagString: Untagged
@@ -1682,6 +1683,18 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.000086532906, y: -0.00015708889, z: 0.0057587805}
     m_Extent: {x: 0.0029645888, y: 0.00095914456, z: 0.007313783}
   m_DirtyAABB: 0
+--- !u!114 &7616063491558537961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4042038373151728802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0a333a2100a7ea49b29b5e1f4729509, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4099759773060319182
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,6 +7,7 @@ public class AnimationToggle : MonoBehaviour
     public Animator animator;
 
     public List<GameObject> disableMenus;
+    public List<GameObject> enableMenus;
 
     private bool swordFall = true; 
 
@@ -32,6 +33,11 @@ public class AnimationToggle : MonoBehaviour
                 swordFall = !swordFall;
                 animator.SetTrigger("SwordUp");
             }
-        }       
+        } 
+        
+        for (int i = 0;i < enableMenus.Count;i++)
+        {
+            enableMenus[i].SetActive(swordFall);
+        }
     }
 }

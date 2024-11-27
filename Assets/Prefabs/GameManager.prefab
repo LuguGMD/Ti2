@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdd9cd05319fcea499d0f31d50a2229e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerSkin: {fileID: 2100000, guid: 67f68ac145ce4534ab28d2317ffcaaa3, type: 2}
   playerAnim: {fileID: 0}
   health: 100
   healthBar: {fileID: 0}
@@ -52,9 +53,10 @@ MonoBehaviour:
   powerupValue: 0
   powerupBar: {fileID: 0}
   powerupActive: 0
+  powerupMult: 0
   powerupDuration: 15
-  pointsText: {fileID: 0}
-  victoryPanelPointsText: {fileID: 0}
+  coinsText: {fileID: 0}
+  victoryPanelCoinsText: {fileID: 0}
   scoreText: {fileID: 0}
   victoryPanelScoreText: {fileID: 0}
   comboText: {fileID: 0}
@@ -80,6 +82,9 @@ MonoBehaviour:
       comboMultiplier: 1.5
     - comboValue: 100
       comboMultiplier: 2
+  gamePaused: 0
+  saveSystem: {fileID: 0}
+  currentLevelId: 0
 --- !u!114 &4629062562198356136
 MonoBehaviour:
   m_ObjectHideFlags: 0
