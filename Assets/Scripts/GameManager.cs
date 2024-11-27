@@ -284,6 +284,8 @@ public class GameManager : MonoBehaviour
         // Stops background and enemies motion
         GameObject player = GameObject.Find("Player");
         player.GetComponent<Move>().XSpeed = 0;
+        GameObject cam = GameObject.Find("CameraHolder");
+        cam.GetComponent<Move>().XSpeed = 0;
     }
 
     public void SceneChange(int id)
