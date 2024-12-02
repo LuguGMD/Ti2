@@ -5,18 +5,63 @@ using UnityEngine;
 [System.Serializable]
 public class PlayerData
 {
-    public Level[] levels;
+    public LevelSaveData[] levels;
+    public AchivementSaveData[] achivements;
     public int currentCoins;
 
     public PlayerData(int numberOfLevels)
     {
-        levels = new Level[numberOfLevels];
+        levels = new LevelSaveData[numberOfLevels];
         currentCoins = 0;
     }
 
     public void SetLevelInfo(int coins, int score, bool unlocked, int levelId)
     {
-        Level level = new Level(coins, score, unlocked);
+        LevelSaveData level = new LevelSaveData(coins, score, unlocked);
         levels[levelId] = level;
+    }
+
+    public void LoadAchivements()
+    {
+        List<Achievement> listedAchivements = AchievementSystem.instance.achievements;
+        
+        achivements = new AchivementSaveData[listedAchivements.Count];
+        for (int i = 0; i < listedAchivements.Count; i++)
+        {
+            achivements[i] = new AchivementSaveData();
+            achivements[i].name = listedAchivements[i].name;
+            achivements[i].value = listedAchivements[i].value;
+            achivements[i].unlocked = listedAchivements[i].unlocked;
+        }
+    }
+}
+
+[System.Serializable]
+public class LevelSaveData
+{
+    public int coins;
+    public int score;
+    public bool unlocked;
+
+    public LevelSaveData(int coins, int score, bool unlocked)
+    {
+        this.coins = coins;
+        this.score = score;
+        this.unlocked = unlocked;
+    }
+}
+
+[System.Serializable]
+public class AchivementSaveData
+{
+    public string name;
+    public float value;
+    public bool unlocked;
+
+    public AchivementSaveData(string name = "", float value = 0, bool unlocked = false)
+    {
+        this.name = name;
+        this.value = value;
+        this.unlocked = unlocked;
     }
 }

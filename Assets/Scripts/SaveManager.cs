@@ -23,6 +23,7 @@ public class SaveManager : MonoBehaviour
             // If there is no save, create a default save
             PlayerData defaultSave = new PlayerData(2);
             defaultSave.SetLevelInfo(0, 0, true, 0);
+            defaultSave.LoadAchivements();
             saveSystem.SavePlayerData(defaultSave);
         }
         else
@@ -38,6 +39,15 @@ public class SaveManager : MonoBehaviour
                 {
                     levelButtons[i].GetComponent<Button>().interactable = true;
                 }
+            }
+
+            // Updates achivements progress
+            List<Achievement> listedAchivements = AchievementSystem.instance.achievements;
+
+            for (int i = 0; i < playerData.achivements.Length; i++)
+            {
+                listedAchivements[i].value = playerData.achivements[i].value;
+                listedAchivements[i].unlocked = playerData.achivements[i].unlocked;
             }
 
             // Updates how many coins the player currently has

@@ -284,6 +284,10 @@ public class GameManager : MonoBehaviour
         victoryPanelScoreText.SetText(score.ToString());
         Time.timeScale = 0f;
 
+        AchievementSystem.instance.UpdateAchievement(0, 1); // Achivement Id = 0 -> Complete Level 1 achivement
+
+
+        AchievementSystem.instance.CheckUnlocked();
         SetPlayerData();
     }
 
@@ -353,7 +357,7 @@ public class GameManager : MonoBehaviour
 
         if (playerData != null)
         {
-            Level currentLevel = playerData.levels[currentLevelId];
+            LevelSaveData currentLevel = playerData.levels[currentLevelId];
 
             if (coins > currentLevel.coins)
             {
@@ -370,6 +374,7 @@ public class GameManager : MonoBehaviour
             {
                 playerData.levels[currentLevelId + 1].unlocked = true; // Unlocks the next level
             }
+
 
             saveSystem.SavePlayerData(playerData);
         }

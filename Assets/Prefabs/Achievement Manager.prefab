@@ -45,10 +45,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   achievements:
-  - name: a
-    description: 
+  - name: Level 1
+    description: Finish Level 1
     icon: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
     id: 0
     value: 0
-    requirement: 0
+    requirement: 1
     unlocked: 0

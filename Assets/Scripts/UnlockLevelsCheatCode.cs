@@ -35,7 +35,7 @@ public class UnlockLevelsCheatCode : MonoBehaviour
     {
         PlayerData playerData = saveSystem.LoadPlayerData();
 
-        foreach (Level level in playerData.levels)
+        foreach (LevelSaveData level in playerData.levels)
         {
             level.unlocked = true;
         }

@@ -37,13 +37,17 @@ public class AchievementSystem : MonoBehaviour
 
     public void UpdateAchievement(int ind, float value)
     {
-        achievements[ind].value += value;
+        if (!achievements[ind].unlocked)
+        {
+            achievements[ind].value += value;
+        }
     }
 
     public void UnlockAchievement(int ind)
     {
         achievements[ind].unlocked = true;
         popUp?.Invoke(achievements[ind]);
+        Debug.Log("Achivement " + achievements[ind].name + "unlocked!");
     }
 
     public void CheckUnlocked()
