@@ -6,21 +6,11 @@ using UnityEngine;
 public class RankingSystem : MonoBehaviour
 {
 
-    public static RankingSystem instance;
-
     public string currentPlayer;
     public List<Player> ranking;
 
     private void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+    {     
         UpdateRankList();
     }
 
