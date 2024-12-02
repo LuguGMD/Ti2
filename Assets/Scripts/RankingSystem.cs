@@ -30,7 +30,6 @@ public class RankingSystem : MonoBehaviour
         ranking.Add(p);
 
         UpdateRankList();
-
     }
 
     public void UpdateRank(string name, int score)
@@ -49,7 +48,7 @@ public class RankingSystem : MonoBehaviour
 
         if (exist)
         {
-            ranking[ind].score = score;
+            ranking[ind].score = Mathf.Max(score, ranking[ind].score);
         }
         else
         {
