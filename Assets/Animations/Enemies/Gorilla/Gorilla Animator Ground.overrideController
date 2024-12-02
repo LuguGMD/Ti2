@@ -8,4 +8,12 @@ AnimatorOverrideController:
   m_PrefabAsset: {fileID: 0}
   m_Name: Gorilla Animator Ground
   m_Controller: {fileID: 9100000, guid: 8e444db460fd82c45af5359a9967770d, type: 2}
-  m_Clips: []
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 4591c167823a0f049973023dc3036b90, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8fe5c33bc534df246b2831f65d443f68, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 10b16215761b25e429946380c0edee9b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1a885bdbef38ca04993089e340762f0f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 675f82a6598d67f48bfb77fe40f4ccd7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1a885bdbef38ca04993089e340762f0f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 18e795db8e6cdd641a03a97c4430745b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f96b628f473c8304fa2ca484a9c527c5, type: 2}
