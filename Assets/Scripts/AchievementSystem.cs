@@ -50,7 +50,7 @@ public class AchievementSystem : MonoBehaviour
     {
         for (int i = 0; i < achievements.Count; i++) 
         {
-            if (achievements[i].unlocked)
+            if (!achievements[i].unlocked)
             {
                 if (achievements[i].value >= achievements[i].requirement)
                 {
