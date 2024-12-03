@@ -10,10 +10,19 @@ public abstract class EnemyBehaviour : MonoBehaviour
 
     protected Transform playerTransform;
 
+    public Light l;
+
     private void Start()
     {
         playerTransform = GameObject.Find("Player").GetComponent<Transform>();
+        l.enabled = GameManager.instance.powerupActive;
     }
+
+    private void Update()
+    {
+        l.enabled = GameManager.instance.powerupActive;
+    }
+
 
     public abstract void NextState(PlayerInputs input, float precision);
 
