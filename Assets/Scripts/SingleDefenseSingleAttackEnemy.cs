@@ -5,6 +5,13 @@ using UnityEngine;
 public class SingleDefenseSingleAttackEnemy : EnemyBehaviour
 {
     private State currentState = State.Idle;
+    private Animator animator;
+
+    public override void Start()
+    {
+        base.Start();
+        animator = GetComponent<Animator>();
+    }
 
     public override void NextState(PlayerInputs input, float precision)
     {
@@ -39,6 +46,15 @@ public class SingleDefenseSingleAttackEnemy : EnemyBehaviour
     {
         AudioController.instance.PlayEnemySounds(notesDuration[1]);
         base.Death(precision);
+    }
+
+    public override void Update()
+    {
+        base.Update();
+        if (transform.position.x - (playerTransform.position.x) <= attackDistance)
+        {
+            animator.SetTrigger("EnableAttack");
+        }
     }
 
     private enum State

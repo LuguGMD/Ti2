@@ -1,9 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public abstract class EnemyBehaviour : MonoBehaviour
 {
+    [Header("UI")]
+    public string iconName = "";
+    private GameObject attackIcon;
+
+    [Header("Enemy Properties")]
     public GameObject collectableEffect;
     public float[] notesDuration;
     public float[] nextPositions;
@@ -11,14 +17,20 @@ public abstract class EnemyBehaviour : MonoBehaviour
     protected Transform playerTransform;
 
     public Light l;
+    public float attackDistance = 0;
 
-    private void Start()
+
+    public virtual void Start()
     {
         playerTransform = GameObject.Find("Player").GetComponent<Transform>();
         l.enabled = GameManager.instance.powerupActive;
+        if (iconName != "")
+        {
+            attackIcon = GameObject.Find(iconName);
+        }
     }
 
-    private void Update()
+    public virtual void Update()
     {
         l.enabled = GameManager.instance.powerupActive;
     }
@@ -42,5 +54,15 @@ public abstract class EnemyBehaviour : MonoBehaviour
         GameManager.instance.AddScore(precision);
         Instantiate(collectableEffect, transform.position, Quaternion.identity, playerTransform);
         Destroy(gameObject); // Kills enemy if health reaches 0
+    }
+
+    public void EnableIcon()
+    {
+        attackIcon.GetComponent<Image>().enabled = true;
+    }
+
+    public void DisableIcon()
+    {
+        attackIcon.GetComponent<Image>().enabled = false;
     }
 }
