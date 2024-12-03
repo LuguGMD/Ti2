@@ -414,7 +414,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 102074374}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2101585293}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: SceneChange
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &102074374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9269,7 +9281,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
     - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
       propertyPath: achievements.Array.data[1].name
-      value: I Yearn for the Mines
+      value: Drop the Beat
       objectReference: {fileID: 0}
     - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
       propertyPath: achievements.Array.data[2].icon
@@ -9285,7 +9297,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
     - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
       propertyPath: achievements.Array.data[3].name
-      value: 
+      value: I Yearn for the Mines
       objectReference: {fileID: 0}
     - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
       propertyPath: achievements.Array.data[4].icon

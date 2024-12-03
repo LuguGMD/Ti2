@@ -20,7 +20,7 @@ public class TouchManager : MonoBehaviour
     private InputAction touch0PressAction;
     private InputAction touch1PressAction;
 
-    private bool attacking = false;
+    public bool attacking = false;
     private Collider attackedEnemy;
 
 
