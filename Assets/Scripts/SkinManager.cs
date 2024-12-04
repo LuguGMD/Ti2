@@ -12,13 +12,23 @@ public class SkinManager : MonoBehaviour
 
     public List<SkinnedMeshRenderer> skinPreview;
 
+
     public void BuySkin()
     {
-        //if (skinsList[currentSkin].price <= money)
-        //{
+        PlayerData playerData = SaveManager.instance.playerData;
+
+        int currentCoins = playerData.currentCoins;
+        if (skinsList[currentSkin].price <= currentCoins)
+        {
             skinsList[currentSkin].unlocked = true;
-            //money -= skinsList[currentSkin].price;
-        //}
+            currentCoins -= skinsList[currentSkin].price;
+            SaveManager.instance.UpdateCurrentCoinsText(currentCoins);
+
+            // Update save file
+            playerData.currentCoins = currentCoins;
+            playerData.skins[currentSkin] = true;
+            SaveManager.instance.saveSystem.SavePlayerData(playerData);
+        }
     }
 
     public void ChooseSkin()
@@ -26,6 +36,11 @@ public class SkinManager : MonoBehaviour
         if (skinsList[currentSkin].unlocked)
         {
             GameManager.playerSkin = skinsList[currentSkin].mat;
+
+            // Updates save file to save equipped skin
+            PlayerData playerData = SaveManager.instance.playerData;
+            playerData.equippedSkinIndex = currentSkin;
+            SaveManager.instance.saveSystem.SavePlayerData(playerData);
         }
         else
         {
@@ -47,7 +62,19 @@ public class SkinManager : MonoBehaviour
         {
             skinPreview[i].material = skinsList[currentSkin].mat;
         }
-        
+
+        UpdateText();
+    }
+
+    public void SetSkin(int index)
+    {
+        currentSkin = index;
+
+        GameManager.playerSkin = skinsList[currentSkin].mat;
+        for (int i = 0; i < skinPreview.Count; i++)
+        {
+            skinPreview[i].material = skinsList[currentSkin].mat;
+        }
 
         UpdateText();
     }
@@ -78,6 +105,6 @@ public class SkinManager : MonoBehaviour
 public class SkinInfo
 {
     public Material mat;
-    public float price;
+    public int price;
     public bool unlocked;
 }

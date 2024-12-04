@@ -7,11 +7,15 @@ public class PlayerData
 {
     public LevelSaveData[] levels;
     public AchivementSaveData[] achivements;
+    public bool[] skins;
     public int currentCoins;
+    public int equippedSkinIndex;
 
-    public PlayerData(int numberOfLevels)
+    public PlayerData(int numberOfLevels, int numberOfSkins)
     {
         levels = new LevelSaveData[numberOfLevels];
+        skins = new bool[numberOfSkins];
+        skins[0] = true;
         currentCoins = 0;
     }
 
