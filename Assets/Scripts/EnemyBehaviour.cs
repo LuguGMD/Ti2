@@ -54,6 +54,14 @@ public abstract class EnemyBehaviour : MonoBehaviour
         GameManager.instance.AddScore(precision);
         Instantiate(collectableEffect, transform.position, Quaternion.identity, playerTransform);
         Destroy(gameObject); // Kills enemy if health reaches 0
+
+        // Updates defeat beasts achivements
+        for (int i = 4; i <=6; i++)
+        {
+            AchievementSystem.instance.UpdateAchievement(i, 1); // Achivement Id = 4 -> Defeat 100 beasts achivement
+                                                                // Achivement Id = 5 -> Defeat 300 beasts achivement
+                                                                // Achivement Id = 6 -> Defeat 1000 beasts achivement
+        }
     }
 
     public void EnableIcon()

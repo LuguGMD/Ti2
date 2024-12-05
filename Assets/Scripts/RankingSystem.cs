@@ -2,16 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RankingSystem : MonoBehaviour
 {
-
-    public string currentPlayer;
+    [Header("Ranking List")]
     public List<Player> ranking;
+
+    [Header("Input")]
+    public InputField nameInput;
 
     private void Awake()
     {     
-        UpdateRankList();
+        SortRankList();
     }
 
     public void AddRank(string name, int score)
@@ -19,37 +22,41 @@ public class RankingSystem : MonoBehaviour
         Player p = new Player(name, score);
         ranking.Add(p);
 
-        UpdateRankList();
+        SortRankList();
     }
 
-    public void UpdateRank(string name, int score)
+    public void UpdateRank()
     {
-        bool exist = false;
-        int ind = 0;
+        string name = nameInput.text;
 
-        for (int i = 0; i < ranking.Count; i++)
+        if (name != "")
         {
-            if (ranking[i].name == name)
+            bool exist = false;
+            int ind = 0;
+
+            for (int i = 0; i < ranking.Count; i++)
             {
-                exist = true;
-                ind = i;
+                if (ranking[i].name == name)
+                {
+                    exist = true;
+                    ind = i;
+                }
             }
-        }
 
-        if (exist)
-        {
-            ranking[ind].score = Mathf.Max(score, ranking[ind].score);
-        }
-        else
-        {
-            AddRank(name, score);
-        }
+            if (exist)
+            {
+                ranking[ind].score = Mathf.Max(GameManager.instance.score, ranking[ind].score);
+            }
+            else
+            {
+                AddRank(name, GameManager.instance.score);
+            }
 
-        UpdateRankList();
-
+            SortRankList();
+        }
     }
 
-    public void UpdateRankList()
+    public void SortRankList()
     {
         bool passed = true;
         int last = 0;

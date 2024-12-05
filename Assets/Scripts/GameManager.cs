@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public Animator playerAnim;
     public Animator swordAnim;
+    private bool fullCombo = true;
 
     [Header("Health")]
     public int health = 100;
@@ -34,7 +35,7 @@ public class GameManager : MonoBehaviour
     public TMP_Text coinsText;
     public TMP_Text victoryPanelCoinsText;
 
-    private int score;
+    public int score;
     public TMP_Text scoreText;
     public TMP_Text victoryPanelScoreText;
 
@@ -157,6 +158,7 @@ public class GameManager : MonoBehaviour
         // Breaks combo
         combo = 0;
         comboText.enabled = false;
+        fullCombo = false;
 
         playerAnim.SetTrigger("Damaged");
         swordAnim.SetTrigger("Damaged");
@@ -284,8 +286,16 @@ public class GameManager : MonoBehaviour
         victoryPanelScoreText.SetText(score.ToString());
         Time.timeScale = 0f;
 
-        AchievementSystem.instance.UpdateAchievement(0, 1); // Achivement Id = 0 -> Complete Level 1 achivement
+        // Updates levels completion achivements
+        AchievementSystem.instance.UpdateAchievement(currentLevelId, 1); // Achivement Id = 0 -> Complete Level 1 achivement
+                                                                         // Achivement Id = 1 -> Complete Level 2 achivement
 
+        // Updates full combos achivements
+        if (fullCombo)
+        {
+            AchievementSystem.instance.UpdateAchievement(currentLevelId + 2, 1); // Achivement Id = 2 -> Get a full combo in Level 1 achivement
+                                                                                 // Achivement Id = 3 -> Get a full combo in Level 2 achivement
+        }
 
         AchievementSystem.instance.CheckUnlocked();
         SetPlayerData();
@@ -306,6 +316,8 @@ public class GameManager : MonoBehaviour
         // Stops background and enemies motion
         GameObject player = GameObject.Find("Player");
         player.GetComponent<Move>().XSpeed = 0;
+
+        AchievementSystem.instance.CheckUnlocked();
     }
 
     public void SceneChange(int id)

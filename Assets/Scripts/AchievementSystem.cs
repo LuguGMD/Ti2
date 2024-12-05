@@ -22,6 +22,8 @@ public class AchievementSystem : MonoBehaviour
 
     public Action<Achievement> popUp;
 
+    public PlayerData playerData;
+
     private void Awake()
     {
         if (instance == null)
@@ -37,7 +39,7 @@ public class AchievementSystem : MonoBehaviour
 
     public void UpdateAchievement(int ind, float value)
     {
-        if (!achievements[ind].unlocked)
+        if (!achievements[ind].unlocked && achievements[ind].value < achievements[ind].requirement)
         {
             achievements[ind].value += value;
         }
@@ -50,8 +52,30 @@ public class AchievementSystem : MonoBehaviour
         Debug.Log("Achivement " + achievements[ind].name + "unlocked!");
     }
 
+    public void SaveAchievement(int ind)
+    {
+        if (playerData != null)
+        {
+            Debug.Log("Save");
+            playerData.achivements[ind].value = achievements[ind].value;
+            playerData.achivements[ind].unlocked = achievements[ind].unlocked;
+        }
+    }
+
     public void CheckUnlocked()
     {
+        if (GameManager.instance.saveSystem != null)
+        {
+            playerData = GameManager.instance.saveSystem.LoadPlayerData();
+        }
+        else if (SaveManager.instance.saveSystem != null)
+        {
+            playerData = SaveManager.instance.saveSystem.LoadPlayerData();
+        }
+
+        Debug.Log(playerData.achivements[7].value);
+        
+
         for (int i = 0; i < achievements.Count; i++) 
         {
             if (!achievements[i].unlocked)
@@ -61,6 +85,18 @@ public class AchievementSystem : MonoBehaviour
                     UnlockAchievement(i);
                 }
             }
+
+            SaveAchievement(i);
+        }
+
+
+        if (GameManager.instance.saveSystem != null)
+        {
+            GameManager.instance.saveSystem.SavePlayerData(playerData);
+        }
+        else if (SaveManager.instance.saveSystem != null)
+        {
+            SaveManager.instance.saveSystem.SavePlayerData(playerData);
         }
     }
 

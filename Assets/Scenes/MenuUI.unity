@@ -9236,16 +9236,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
     - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
+      propertyPath: achievements.Array.data[4].name
+      value: Village Defender
+      objectReference: {fileID: 0}
+    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
       propertyPath: achievements.Array.data[5].icon
       value: 
       objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
+    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
+      propertyPath: achievements.Array.data[5].name
+      value: Fearful Fighter
+      objectReference: {fileID: 0}
     - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
       propertyPath: achievements.Array.data[6].icon
       value: 
       objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
     - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
       propertyPath: achievements.Array.data[6].name
-      value: Beasts Slayer
+      value: Beast Slayer
       objectReference: {fileID: 0}
     - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
       propertyPath: achievements.Array.data[7].icon
@@ -9253,7 +9261,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
     - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
       propertyPath: achievements.Array.data[7].name
-      value: 
+      value: Wardrobe Change
       objectReference: {fileID: 0}
     - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
       propertyPath: achievements.Array.data[8].icon

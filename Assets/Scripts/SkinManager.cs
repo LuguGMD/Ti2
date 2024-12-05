@@ -28,6 +28,15 @@ public class SkinManager : MonoBehaviour
             playerData.currentCoins = currentCoins;
             playerData.skins[currentSkin] = true;
             SaveManager.instance.saveSystem.SavePlayerData(playerData);
+
+            // Updates buy skins achivements
+            for (int i = 7;i <= 8; i++)
+            {
+                AchievementSystem.instance.UpdateAchievement(i, 1); // Achivement Id = 7 -> Buy 1 skin achivement
+                                                                    // Achivement Id = 8 -> Buy all skins achivement   
+            }
+
+            AchievementSystem.instance.CheckUnlocked();
         }
     }
 

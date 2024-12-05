@@ -6,7 +6,8 @@ using UnityEngine;
 public class PlayerData
 {
     public LevelSaveData[] levels;
-    public AchivementSaveData[] achivements;
+    public AchievementSaveData[] achivements;
+    public List<Player> ranking;
     public bool[] skins;
     public int currentCoins;
     public int equippedSkinIndex;
@@ -29,10 +30,10 @@ public class PlayerData
     {
         List<Achievement> listedAchivements = AchievementSystem.instance.achievements;
         
-        achivements = new AchivementSaveData[listedAchivements.Count];
+        achivements = new AchievementSaveData[listedAchivements.Count];
         for (int i = 0; i < listedAchivements.Count; i++)
         {
-            achivements[i] = new AchivementSaveData();
+            achivements[i] = new AchievementSaveData();
             achivements[i].name = listedAchivements[i].name;
             achivements[i].value = listedAchivements[i].value;
             achivements[i].unlocked = listedAchivements[i].unlocked;
@@ -56,13 +57,13 @@ public class LevelSaveData
 }
 
 [System.Serializable]
-public class AchivementSaveData
+public class AchievementSaveData
 {
     public string name;
     public float value;
     public bool unlocked;
 
-    public AchivementSaveData(string name = "", float value = 0, bool unlocked = false)
+    public AchievementSaveData(string name = "", float value = 0, bool unlocked = false)
     {
         this.name = name;
         this.value = value;
