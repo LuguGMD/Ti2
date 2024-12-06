@@ -284,7 +284,10 @@ public class GameManager : MonoBehaviour
         victoryPanel.SetActive(true);
         victoryPanelCoinsText.SetText(coins.ToString());
         victoryPanelScoreText.SetText(score.ToString());
-        Time.timeScale = 0f;
+
+        // Stops background and enemies motion
+        GameObject player = GameObject.Find("Player");
+        player.GetComponent<Move>().XSpeed = 0;
 
         // Updates levels completion achivements
         AchievementSystem.instance.UpdateAchievement(currentLevelId, 1); // Achivement Id = 0 -> Complete Level 1 achivement
@@ -297,8 +300,8 @@ public class GameManager : MonoBehaviour
                                                                                  // Achivement Id = 3 -> Get a full combo in Level 2 achivement
         }
 
-        AchievementSystem.instance.CheckUnlocked();
         SetPlayerData();
+        StartCoroutine(AchievementSystem.instance.CheckUnlocked());
     }
 
     public void GameOver()
@@ -317,7 +320,7 @@ public class GameManager : MonoBehaviour
         GameObject player = GameObject.Find("Player");
         player.GetComponent<Move>().XSpeed = 0;
 
-        AchievementSystem.instance.CheckUnlocked();
+        StartCoroutine(AchievementSystem.instance.CheckUnlocked());
     }
 
     public void SceneChange(int id)

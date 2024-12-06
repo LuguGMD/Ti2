@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class RankingSystem : MonoBehaviour
 {
@@ -10,7 +10,7 @@ public class RankingSystem : MonoBehaviour
     public List<Player> ranking;
 
     [Header("Input")]
-    public InputField nameInput;
+    public TMP_InputField nameInput;
 
     private void Awake()
     {     
@@ -21,8 +21,6 @@ public class RankingSystem : MonoBehaviour
     {
         Player p = new Player(name, score);
         ranking.Add(p);
-
-        SortRankList();
     }
 
     public void UpdateRank()
@@ -53,6 +51,11 @@ public class RankingSystem : MonoBehaviour
             }
 
             SortRankList();
+
+            // Saves ranking
+            PlayerData playerData = GameManager.instance.saveSystem.LoadPlayerData();
+            playerData.rankings.SetPlayerRanking(GameManager.instance.currentLevelId, ranking);
+            GameManager.instance.saveSystem.SavePlayerData(playerData);
         }
     }
 

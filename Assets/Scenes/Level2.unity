@@ -169,11 +169,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &3295158
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -292,11 +294,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.2
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &9905867
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -415,11 +419,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &19799801
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -538,11 +544,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.45
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &23512060
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -706,11 +714,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &111471113
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -929,11 +939,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &168401763
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1052,11 +1064,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &180521167
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1175,11 +1189,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &180532876
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1298,11 +1314,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &186650414
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1437,11 +1455,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &232854417
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1560,11 +1580,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &260895687
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1683,11 +1705,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.45
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &269032689
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1806,11 +1830,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.2
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &280825493
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1929,11 +1955,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &288778299
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2063,11 +2091,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &312178558
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2186,11 +2216,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &319196374
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2309,11 +2341,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &339033407
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2521,11 +2555,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &397341316
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2644,11 +2680,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &405520294
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2767,11 +2805,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &436636203
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2952,11 +2992,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.45
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &450952430
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3075,11 +3117,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &461803048
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3198,11 +3242,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &477953909
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3321,11 +3367,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.45
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &481257679
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3444,11 +3492,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &496963179
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3567,11 +3617,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 2.4
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &504521013
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3845,11 +3897,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 2.4
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &600067090
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3979,11 +4033,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &611321798
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4102,11 +4158,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &622377366
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4225,11 +4283,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.2
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &623954254
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4348,11 +4408,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 2.4
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &641488541
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4471,11 +4533,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 2.4
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &657524759
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4734,11 +4798,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &672623646
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5013,11 +5079,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &727490778
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5136,11 +5204,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.6
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &727867138
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5232,6 +5302,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 606116472}
+    - target: {fileID: 3689065392047364094, guid: 13fd492e5ff5ddf49b1d46e0aba605fa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5067946083898781072, guid: 13fd492e5ff5ddf49b1d46e0aba605fa, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -5312,6 +5386,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5603269607904142201, guid: 13fd492e5ff5ddf49b1d46e0aba605fa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 979155529}
+    - target: {fileID: 5603269607904142201, guid: 13fd492e5ff5ddf49b1d46e0aba605fa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateRank
+      objectReference: {fileID: 0}
     - target: {fileID: 5941801404148266077, guid: 13fd492e5ff5ddf49b1d46e0aba605fa, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -5332,6 +5414,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 606116472}
+    - target: {fileID: 6272234054221091819, guid: 13fd492e5ff5ddf49b1d46e0aba605fa, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272234054221091819, guid: 13fd492e5ff5ddf49b1d46e0aba605fa, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272234054221091819, guid: 13fd492e5ff5ddf49b1d46e0aba605fa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 350.62506
+      objectReference: {fileID: 0}
     - target: {fileID: 6454367440744756941, guid: 13fd492e5ff5ddf49b1d46e0aba605fa, type: 3}
       propertyPath: m_Name
       value: UI
@@ -5384,11 +5478,38 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8832276803541464783, guid: 13fd492e5ff5ddf49b1d46e0aba605fa, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8832276803541464783, guid: 13fd492e5ff5ddf49b1d46e0aba605fa, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8832276803541464783, guid: 13fd492e5ff5ddf49b1d46e0aba605fa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 350.62506
+      objectReference: {fileID: 0}
+    - target: {fileID: 8832276803541464783, guid: 13fd492e5ff5ddf49b1d46e0aba605fa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -202.73436
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13fd492e5ff5ddf49b1d46e0aba605fa, type: 3}
+--- !u!114 &730728422 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5928635691576476114, guid: 13fd492e5ff5ddf49b1d46e0aba605fa, type: 3}
+  m_PrefabInstance: {fileID: 730728421}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &750928274
 GameObject:
   m_ObjectHideFlags: 0
@@ -5436,11 +5557,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &750928277
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5559,11 +5682,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &758337107
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5682,11 +5807,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &787921044
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5805,11 +5932,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &801530341
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5928,11 +6057,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &802001742
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6051,11 +6182,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &827078724
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6174,11 +6307,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &830274937
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6297,11 +6432,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &834320820
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6501,11 +6638,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.6
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &839329035
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6624,11 +6763,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &871596074
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6747,11 +6888,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &931869370
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6823,6 +6966,52 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 931869367}
   m_Mesh: {fileID: 1020403213584594480, guid: 0ad31155ca66e444381c3138f3b0e6ed, type: 3}
+--- !u!1 &979155528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 979155530}
+  - component: {fileID: 979155529}
+  m_Layer: 0
+  m_Name: RankingSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &979155529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979155528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd61fbfb86718014fb81a9396929fc13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ranking: []
+  nameInput: {fileID: 730728422}
+--- !u!4 &979155530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979155528}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 685.47766, y: 341.5021, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1002654093 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 687786194967442868, guid: e7b5092e318f24e43b019899dcdd9a57, type: 3}
@@ -6875,11 +7064,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 2.4
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1009602233
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6998,11 +7189,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1019842437
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7121,11 +7314,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1029420153
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7244,11 +7439,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 2.4
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1032378635
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7367,11 +7564,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1064098956
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7552,11 +7751,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.6
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1095535055
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7675,11 +7876,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.6
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1098037939
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7829,11 +8032,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1129049783
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7952,11 +8157,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1162213271
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8080,11 +8287,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1241347701
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8203,11 +8412,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1248764261
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8326,11 +8537,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1255178606
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8449,11 +8662,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1255753948
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8572,11 +8787,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1286570366
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8695,11 +8912,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1294585142
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8818,11 +9037,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.2
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1296158827
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8941,11 +9162,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1330007069
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9064,11 +9287,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.6
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1335386873
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9187,11 +9412,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1336545084
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9310,11 +9537,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1340902883
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9464,11 +9693,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.2
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1386762829
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9587,11 +9818,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 2.4
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1400994917
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9710,11 +9943,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1402073593
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9833,11 +10068,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.2
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1404849792
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9956,11 +10193,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.75
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1426707087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10084,11 +10323,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1494176829
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10245,11 +10486,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1505693815
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10373,11 +10616,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1558154631
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10496,11 +10741,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1558712788
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10619,11 +10866,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1561513087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10742,11 +10991,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1567987889
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10865,11 +11116,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1568866919
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10988,11 +11241,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1576301389
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11111,11 +11366,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1611390007
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11234,11 +11491,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1618268019
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11357,11 +11616,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1624312085
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11491,11 +11752,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1653326922
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11614,11 +11877,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1684954877
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11737,11 +12002,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 2.4
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1687641133
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11891,11 +12158,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1694764777
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12014,11 +12283,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1715210934
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12137,11 +12408,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1747363768
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12260,11 +12533,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.75
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1776779869
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12383,11 +12658,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1792216321
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12517,11 +12794,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1806788611
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12640,11 +12919,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.2
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1834350467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12841,11 +13122,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1835149760
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12964,11 +13247,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1885712339
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13087,11 +13372,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1908183344
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13210,11 +13497,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1916908886
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13395,11 +13684,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.6
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1946542317
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13518,11 +13809,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1951049348
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13641,11 +13934,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.45
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1951770452
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13764,11 +14059,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.45
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1956268146
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13887,11 +14184,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &1992087192
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14010,11 +14309,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &2004090812
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14138,11 +14439,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 2.4
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &2034553000
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14261,11 +14564,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &2062134656
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14450,11 +14755,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &2085202442
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14573,11 +14880,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &2112261420
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14696,11 +15005,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.6
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &2118317634
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14819,11 +15130,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &2136127699
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14942,11 +15255,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15
   nextPositions: []
   l: {fileID: 0}
+  attackDistance: 0
 --- !u!65 &2140717155
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15719,6 +16034,7 @@ SceneRoots:
   - {fileID: 6254445192388726080}
   - {fileID: 7266002102264249278}
   - {fileID: 835785371}
+  - {fileID: 979155530}
   - {fileID: 1103182822}
   - {fileID: 1350421020}
   - {fileID: 730728421}

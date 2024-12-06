@@ -36,7 +36,7 @@ public class SkinManager : MonoBehaviour
                                                                     // Achivement Id = 8 -> Buy all skins achivement   
             }
 
-            AchievementSystem.instance.CheckUnlocked();
+            StartCoroutine(AchievementSystem.instance.CheckUnlocked());
         }
     }
 

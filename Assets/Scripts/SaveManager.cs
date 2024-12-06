@@ -7,13 +7,24 @@ using UnityEngine.UI;
 public class SaveManager : MonoBehaviour
 {
     public static SaveManager instance;
-    
+
     public SaveSystem saveSystem;
 
+    [Header("Levels info")]
     public GameObject[] levelButtons;
     public TMP_Text[] levelCoinsText;
     public TMP_Text[] levelScoreText;
     public TMP_Text currentCoinsText;
+
+    [Header("Ranking")]
+    public Transform[] rankingLists;
+    public GameObject rankingTagPrefab;
+
+
+    [Header("Achivements")]
+    public GameObject achievementList;
+    private Color lockedColor = new Color(0.60f, 0.42f, 0.24f, 1);
+    private Color unlockedColor = new Color(0.91f, 0.64f, 0.38f, 1);
 
     public SkinManager skinManager;
     public PlayerData playerData;
@@ -58,6 +69,26 @@ public class SaveManager : MonoBehaviour
                 }
             }
 
+            // Loads ranking
+            GameObject rankingTag;
+
+            // Level 1 Ranking
+            for (int i = 0; i < playerData.rankings.Count(0); i++)
+            {
+                rankingTag = Instantiate(rankingTagPrefab, rankingLists[0]);
+                rankingTag.transform.GetChild(0).GetComponent<TMP_Text>().SetText(playerData.rankings.GetPlayerRanking(0, i).name);  // Set name
+                rankingTag.transform.GetChild(1).GetComponent<TMP_Text>().SetText(playerData.rankings.GetPlayerRanking(0, i).score.ToString()); // Set score
+            }
+
+            // Level 2 Ranking
+            for (int i = 0; i < playerData.rankings.Count(1); i++)
+            {
+                rankingTag = Instantiate(rankingTagPrefab, rankingLists[1]);
+                rankingTag.transform.GetChild(0).GetComponent<TMP_Text>().SetText(playerData.rankings.GetPlayerRanking(1, i).name);  // Set name
+                rankingTag.transform.GetChild(1).GetComponent<TMP_Text>().SetText(playerData.rankings.GetPlayerRanking(1, i).score.ToString()); // Set score
+            }
+
+
             // Loads achivements progress
             List<Achievement> listedAchivements = AchievementSystem.instance.achievements;
 
@@ -65,6 +96,11 @@ public class SaveManager : MonoBehaviour
             {
                 listedAchivements[i].value = playerData.achivements[i].value;
                 listedAchivements[i].unlocked = playerData.achivements[i].unlocked;
+
+                if (playerData.achivements[i].unlocked)
+                {
+                    achievementList.transform.GetChild(i).GetComponent<Image>().color = unlockedColor;
+                }
             }
 
             // Loads how many coins the player currently has

@@ -7,7 +7,7 @@ public class PlayerData
 {
     public LevelSaveData[] levels;
     public AchievementSaveData[] achivements;
-    public List<Player> ranking;
+    public RankingList rankings;
     public bool[] skins;
     public int currentCoins;
     public int equippedSkinIndex;
@@ -17,6 +17,7 @@ public class PlayerData
         levels = new LevelSaveData[numberOfLevels];
         skins = new bool[numberOfSkins];
         skins[0] = true;
+        rankings = new RankingList(numberOfLevels);
         currentCoins = 0;
     }
 
@@ -68,5 +69,43 @@ public class AchievementSaveData
         this.name = name;
         this.value = value;
         this.unlocked = unlocked;
+    }
+}
+
+[System.Serializable]
+public class Ranking
+{
+    public List<Player> ranking;
+}
+
+[System.Serializable]
+public class RankingList
+{
+    public List<Ranking> rankingList;
+
+    public RankingList(int numberOfRankings)
+    {
+        rankingList = new List<Ranking>();
+
+        for (int i = 0; i < numberOfRankings; i++)
+        {
+            rankingList.Add(new Ranking());
+        }
+    }
+
+
+    public int Count(int index)
+    {
+        return rankingList[index].ranking.Count;
+    }
+
+    public Player GetPlayerRanking(int rankingIndex, int playerIndex)
+    {
+        return rankingList[rankingIndex].ranking[playerIndex];
+    }
+
+    public void SetPlayerRanking(int rankingIndex, List<Player> ranking)
+    {
+        rankingList[rankingIndex].ranking = ranking;
     }
 }

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using TMPro;
 
 public enum ACHIEVE
 {
@@ -19,8 +20,7 @@ public class AchievementSystem : MonoBehaviour
     public static AchievementSystem instance;
 
     public List<Achievement> achievements;
-
-    public Action<Achievement> popUp;
+    public GameObject popUpPrefab;
 
     public PlayerData playerData;
 
@@ -48,7 +48,7 @@ public class AchievementSystem : MonoBehaviour
     public void UnlockAchievement(int ind)
     {
         achievements[ind].unlocked = true;
-        popUp?.Invoke(achievements[ind]);
+        achievements[ind].popUp = true;
         Debug.Log("Achivement " + achievements[ind].name + "unlocked!");
     }
 
@@ -62,7 +62,7 @@ public class AchievementSystem : MonoBehaviour
         }
     }
 
-    public void CheckUnlocked()
+    public IEnumerator CheckUnlocked()
     {
         if (GameManager.instance.saveSystem != null)
         {
@@ -85,7 +85,6 @@ public class AchievementSystem : MonoBehaviour
                     UnlockAchievement(i);
                 }
             }
-
             SaveAchievement(i);
         }
 
@@ -98,6 +97,29 @@ public class AchievementSystem : MonoBehaviour
         {
             SaveManager.instance.saveSystem.SavePlayerData(playerData);
         }
+
+        for (int i = 0; i < achievements.Count; i++)
+        {
+            if (achievements[i].popUp)
+            {
+                SetPopUp(achievements[i]);
+
+                yield return new WaitForSeconds(3);
+            }
+        }
+    }
+
+    private void SetPopUp(Achievement achievement)
+    {
+        achievement.popUp = false;
+
+        
+        Transform popUp = Instantiate(popUpPrefab).transform.GetChild(0);
+        popUp.GetChild(0).GetComponent<TMP_Text>().SetText(achievement.name);
+        popUp.GetChild(1).GetComponent<TMP_Text>().SetText(achievement.description);
+
+        Debug.Log("PopUp");
+        Destroy(popUp.parent.gameObject, 4f);
     }
 
 }
@@ -114,4 +136,5 @@ public class Achievement
     public float value;
     public float requirement;
     public bool unlocked;
+    public bool popUp;
 }
