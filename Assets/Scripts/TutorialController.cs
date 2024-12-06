@@ -7,16 +7,50 @@ public class TutorialController : MonoBehaviour
 
     public bool tutorial;
 
+    [SerializeField] float minDist;
+
     [SerializeField] GameObject leftHand;
     [SerializeField] GameObject rightHand;
 
+    [SerializeField] GameObject target;
+
+    [SerializeField] List<GameObject> enemies;
+    [SerializeField] List<int> type;
+
     [SerializeField] Move move;
-    [SerializeField] float moveSpd;
+    float moveSpd;
 
     // Start is called before the first frame update
     void Start()
     {
         moveSpd = move.XSpeed;
+        tutorial = false;
+    }
+
+    private void Update()
+    {
+        if (enemies.Count > 0)
+        {
+            if (!tutorial && enemies[0] != null)
+            {
+                float dist = Mathf.Abs(enemies[0].transform.position.x - target.transform.position.x);
+                if (dist < minDist)
+                {
+                    StartTutorial(type[0]);
+                    tutorial = true;
+                }
+            }
+            else
+            {
+                if (enemies[0] == null)
+                {
+                    enemies.RemoveAt(0);
+                    type.RemoveAt(0);
+                    tutorial = false;
+                    EndTutorial();
+                }
+            }
+        }
     }
 
     public void StartTutorial(int tutorial)
@@ -38,6 +72,8 @@ public class TutorialController : MonoBehaviour
                 break;
         }
 
+        FreezeGame();
+
     }
 
     public void EndTutorial()
@@ -46,23 +82,12 @@ public class TutorialController : MonoBehaviour
         move.XSpeed = moveSpd;
         leftHand.SetActive(false);
         rightHand.SetActive(false);
-        EnableControls();
     }
 
     public void FreezeGame()
     {
         AudioController.instance.PauseMusic();
         move.XSpeed = 0;
-    }
-
-    public void DisableControls()
-    {
-
-    }
-
-    public void EnableControls()
-    {
-
     }
 
 }
