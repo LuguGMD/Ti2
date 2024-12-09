@@ -18,7 +18,7 @@ public abstract class EnemyBehaviour : MonoBehaviour
     protected Transform playerTransform;
 
     public Light l;
-    public float attackDistance = 0;
+    public float attackDistance;
 
     [SerializeField]
     public BoxCollider bc;

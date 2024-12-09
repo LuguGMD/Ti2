@@ -142,6 +142,8 @@ public class TouchManager : MonoBehaviour
 
     public void Defend()
     {
+        Debug.Log("Defend");
+
         Collider[] enemiesToDamage = new Collider[2];
         Collider[] enemiesInArea = Physics.OverlapSphere(bottomLaneAttackPos.position, attackRange, enemyLayer); // Gets the enemies in player's bottom attack area 
 
