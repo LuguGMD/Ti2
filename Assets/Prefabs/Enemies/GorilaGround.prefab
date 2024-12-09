@@ -3509,8 +3509,39 @@ MonoBehaviour:
   nextPositions: []
   l: {fileID: 4927501261572479073}
   attackDistance: 10
-  bc: {fileID: 5791020828420902774}
-  animator: {fileID: 4684403901160746734}
+  hitAnimCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1.9009435
+      outSlope: 1.9009435
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.13108966
+    - serializedVersion: 3
+      time: 0.4921655
+      value: 0.6749531
+      inSlope: 0.9039145
+      outSlope: 0.9039145
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.13972403
+      outWeight: 0.15961646
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.38993695
+      outSlope: 0.38993695
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.22810411
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!95 &4684403901160746734
 Animator:
   serializedVersion: 5
