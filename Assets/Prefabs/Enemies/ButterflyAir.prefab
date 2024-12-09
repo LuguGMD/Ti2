@@ -1208,6 +1208,40 @@ MonoBehaviour:
   attackDistance: 0
   bc: {fileID: -8051967829274100887}
   animator: {fileID: 8524086220076551597}
+  deathRotation: {x: 60, y: -45, z: 30}
+  deathAnimCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 5.929861
+      outSlope: 5.929861
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.038151603
+    - serializedVersion: 3
+      time: 0.6142037
+      value: 1.5799776
+      inSlope: 0.9228002
+      outSlope: 4.8353806
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.14470306
+    - serializedVersion: 3
+      time: 0.9999801
+      value: 2.561407
+      inSlope: 0.76763344
+      outSlope: Infinity
+      tangentMode: 97
+      weightedMode: 0
+      inWeight: 0.30433956
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   scoreRate: 0.1
   bar: {fileID: 8278141660416462191}
 --- !u!95 &8524086220076551597

@@ -11,6 +11,8 @@ public class LevelBuilder : MonoBehaviour
     public TextAsset jsonFile; // Json file that determines enemies positions
     public Note[] notes;
 
+    private float standardAttackDistance = 25;
+
     // Classes used to read json file
     [System.Serializable]
     public class Note
@@ -59,6 +61,7 @@ public class LevelBuilder : MonoBehaviour
                     notesDuration[0] = notes[i].duration;
                     notesDuration[1] = notes[i++].duration;
 
+                    enemyBehaviour.attackDistance = standardAttackDistance * playerSpeed / 20;
                     break;
                 case "C1":
                     position = new Vector3(positionX, enemyPrefabs[1].transform.position.y, enemyPrefabs[1].transform.position.z);
@@ -73,6 +76,7 @@ public class LevelBuilder : MonoBehaviour
                     notesDuration[0] = notes[i].duration;
                     notesDuration[1] = notes[i++].duration;
 
+                    enemyBehaviour.attackDistance = standardAttackDistance * playerSpeed / 20;
                     break;
                 case "D0":
                     position = new Vector3(positionX, enemyPrefabs[2].transform.position.y, enemyPrefabs[2].transform.position.z);
