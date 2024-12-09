@@ -846,10 +846,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c314399badce449a10d07c2b74e339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration: []
   nextPositions: []
   l: {fileID: 3800487795063423715}
+  attackDistance: 0
+  bc: {fileID: 5073234782891465770}
+  animator: {fileID: 375978975317790660}
 --- !u!95 &375978975317790660
 Animator:
   serializedVersion: 5

@@ -1072,6 +1072,8 @@ MonoBehaviour:
   nextPositions: []
   l: {fileID: 3471817503290269501}
   attackDistance: 0
+  bc: {fileID: -3597338432716966168}
+  animator: {fileID: 6319352150742730564}
 --- !u!95 &6319352150742730564
 Animator:
   serializedVersion: 5

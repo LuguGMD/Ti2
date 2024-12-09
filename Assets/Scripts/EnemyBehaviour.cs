@@ -19,6 +19,11 @@ public abstract class EnemyBehaviour : MonoBehaviour
     public Light l;
     public float attackDistance = 0;
 
+    [SerializeField]
+    public BoxCollider bc;
+    [SerializeField]
+    protected Animator animator;
+
 
     public virtual void Start()
     {
@@ -53,7 +58,10 @@ public abstract class EnemyBehaviour : MonoBehaviour
         GameManager.instance.AddPoint();
         GameManager.instance.AddScore(precision);
         Instantiate(collectableEffect, transform.position, Quaternion.identity, playerTransform);
-        Destroy(gameObject); // Kills enemy if health reaches 0
+        Destroy(gameObject, 3f); // Kills enemy if health reaches 0
+        bc.enabled = false;
+        animator.SetTrigger("Died");
+
 
         // Updates defeat beasts achivements
         for (int i = 4; i <=6; i++)

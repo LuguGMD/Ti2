@@ -1206,6 +1206,8 @@ MonoBehaviour:
   nextPositions: []
   l: {fileID: 8093578309019310880}
   attackDistance: 0
+  bc: {fileID: -8051967829274100887}
+  animator: {fileID: 8524086220076551597}
   scoreRate: 0.1
 --- !u!95 &8524086220076551597
 Animator:
@@ -1299,6 +1301,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6185884500262355345}
     m_Modifications:
+    - target: {fileID: 2612117964627670958, guid: 6993aad11e71ca343bf02986b81cac9f, type: 3}
+      propertyPath: m_Size.x
+      value: 7.67
+      objectReference: {fileID: 0}
     - target: {fileID: 4484574430728790356, guid: 6993aad11e71ca343bf02986b81cac9f, type: 3}
       propertyPath: m_Name
       value: HoldBar

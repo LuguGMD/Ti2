@@ -14,7 +14,7 @@ public class TutorialController : MonoBehaviour
 
     [SerializeField] GameObject target;
 
-    [SerializeField] List<GameObject> enemies;
+    [SerializeField] List<EnemyBehaviour> enemies;
     [SerializeField] List<int> type;
 
     [SerializeField] Move move;
@@ -42,7 +42,7 @@ public class TutorialController : MonoBehaviour
             }
             else
             {
-                if (enemies[0] == null)
+                if (!enemies[0].bc.enabled || enemies[0] == null) 
                 {
                     enemies.RemoveAt(0);
                     type.RemoveAt(0);
