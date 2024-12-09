@@ -10,6 +10,32 @@ public class HoldAttackEnemy : EnemyBehaviour
 
     public float scoreRate;
 
+    public SpriteRenderer bar;
+    private float barSize;
+    private float barTime;
+    private bool attacked;
+
+
+    public override void Start()
+    {
+        base.Start();
+
+        barSize = notesDuration[0] * (20 / 5);
+        bar.size = new Vector2(barSize, 1);
+    }
+
+    public override void Update()
+    {
+        base.Update();
+
+        if (attacked)
+        {
+            barTime += Time.deltaTime;
+
+            bar.size = new Vector2(Mathf.Lerp(barSize, 0.1f, barTime / notesDuration[0]), 1);
+        }
+
+    }
     public override void NextState(PlayerInputs input, float precision)
     {
         if (currentState == State.Idle)
@@ -39,6 +65,7 @@ public class HoldAttackEnemy : EnemyBehaviour
         transform.parent = playerTransform; // Makes the enemy move with the player
         float timer = 0f;
         animator.SetTrigger("Attacked");
+        attacked = true;
 
         while (timer < notesDuration[0])
         {
@@ -48,6 +75,7 @@ public class HoldAttackEnemy : EnemyBehaviour
             yield return new WaitForSeconds(scoreRate);
         }
 
+        bar.size = new Vector2(0, 1);
         NextState(PlayerInputs.Release, 0);
         yield break;
     }
