@@ -45,8 +45,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdd9cd05319fcea499d0f31d50a2229e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSkin: {fileID: 2100000, guid: 67f68ac145ce4534ab28d2317ffcaaa3, type: 2}
+  baseSkin: {fileID: 0}
   playerAnim: {fileID: 0}
+  swordAnim: {fileID: 0}
   health: 100
   healthBar: {fileID: 0}
   invincible: 0
@@ -57,6 +58,7 @@ MonoBehaviour:
   powerupDuration: 15
   coinsText: {fileID: 0}
   victoryPanelCoinsText: {fileID: 0}
+  score: 0
   scoreText: {fileID: 0}
   victoryPanelScoreText: {fileID: 0}
   comboText: {fileID: 0}
@@ -103,6 +105,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 9f04bc0b217ef2a4e9b75cd467431033, type: 2}
   - {fileID: 2100000, guid: eaeaea95e5dbae14bb495793d963777f, type: 2}
   - {fileID: 2100000, guid: bfb4ca4f0bd612946b8555a57991289a, type: 2}
+  - {fileID: 2100000, guid: 5296f9bcfa6b91b459f8d65f2fccebaa, type: 2}
+  - {fileID: 2100000, guid: 399663dcd7ec79446ab4cc24ff81d5c5, type: 2}
   currentColor: {r: 1, g: 1, b: 1, a: 1}
   gradient:
     serializedVersion: 2

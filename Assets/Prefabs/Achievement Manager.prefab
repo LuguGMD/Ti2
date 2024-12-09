@@ -45,10 +45,84 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   achievements:
-  - name: Level 1
+  - name: Humble Beginnings
     description: Finish Level 1
     icon: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
     id: 0
     value: 0
     requirement: 1
     unlocked: 0
+    popUp: 0
+  - name: Drop the Beat
+    description: Finish Level 2
+    icon: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
+    id: 0
+    value: 0
+    requirement: 1
+    unlocked: 0
+    popUp: 0
+  - name: George of the Jungle
+    description: Get a full combo in Level 1
+    icon: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
+    id: 0
+    value: 0
+    requirement: 1
+    unlocked: 0
+    popUp: 0
+  - name: I Yearn for the Mines
+    description: Get a full combo in Level 2
+    icon: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
+    id: 0
+    value: 0
+    requirement: 1
+    unlocked: 0
+    popUp: 0
+  - name: Village Defender
+    description: Defeat 100 beasts
+    icon: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
+    id: 0
+    value: 0
+    requirement: 100
+    unlocked: 0
+    popUp: 0
+  - name: Fearful Fighter
+    description: Defeat 300 beasts
+    icon: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
+    id: 0
+    value: 0
+    requirement: 300
+    unlocked: 0
+    popUp: 0
+  - name: Beast Slayer
+    description: Defeat 1000 beasts
+    icon: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
+    id: 0
+    value: 0
+    requirement: 1000
+    unlocked: 0
+    popUp: 0
+  - name: Wardrobe Change
+    description: Buy a skin
+    icon: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
+    id: 0
+    value: 0
+    requirement: 1
+    unlocked: 0
+    popUp: 0
+  - name: Shopping Spree
+    description: Buy all skins
+    icon: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
+    id: 0
+    value: 0
+    requirement: 4
+    unlocked: 0
+    popUp: 0
+  popUpPrefab: {fileID: 8319281408470412996, guid: 58ba137bee4d39942b420ab100952e88, type: 3}
+  playerData:
+    levels: []
+    achivements: []
+    rankings:
+      rankingList: []
+    skins: 
+    currentCoins: 0
+    equippedSkinIndex: 0

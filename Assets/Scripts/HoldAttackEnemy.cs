@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class HoldAttackEnemy : EnemyBehaviour
 {
@@ -37,10 +38,12 @@ public class HoldAttackEnemy : EnemyBehaviour
         AudioController.instance.PlayEnemySounds(notesDuration[0]);
         transform.parent = playerTransform; // Makes the enemy move with the player
         float timer = 0f;
+        animator.SetTrigger("Attacked");
 
         while (timer < notesDuration[0])
         {
-            GameManager.instance.AddScore(4); // Bad check, adds 10 points
+            GameManager.instance.score += 10; // Bad check, adds 10 points
+            GameManager.instance.UpdateScoreBar(10);
             timer += scoreRate; // Adds score every 0.2 seconds
             yield return new WaitForSeconds(scoreRate);
         }
