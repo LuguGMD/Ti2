@@ -3509,6 +3509,8 @@ MonoBehaviour:
   nextPositions: []
   l: {fileID: 4927501261572479073}
   attackDistance: 10
+  bc: {fileID: 5791020828420902774}
+  animator: {fileID: 4684403901160746734}
   hitAnimCurve:
     serializedVersion: 2
     m_Curve:
