@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening;
 
 public abstract class EnemyBehaviour : MonoBehaviour
 {
@@ -24,11 +25,24 @@ public abstract class EnemyBehaviour : MonoBehaviour
     [SerializeField]
     protected Animator animator;
 
+    public Vector3 deathRotation = new Vector3(60, -45, 30);
+    public AnimationCurve deathAnimCurve;
+    private bool death = false;
+
+    private float horizontalSpeed;
+    private float verticalSpeed;
+    private Vector3 startPos;
+    private float time = 0f;
+
 
     public virtual void Start()
     {
         playerTransform = GameObject.Find("Player").GetComponent<Transform>();
         l.enabled = GameManager.instance.powerupActive;
+
+        horizontalSpeed = Random.Range(36, 44);
+        verticalSpeed = Random.Range(8, 10);
+
         if (iconName != "")
         {
             attackIcon = GameObject.Find(iconName);
@@ -38,6 +52,12 @@ public abstract class EnemyBehaviour : MonoBehaviour
     public virtual void Update()
     {
         l.enabled = GameManager.instance.powerupActive;
+
+        if (death)
+        {
+            transform.position = new Vector3(startPos.x + horizontalSpeed * time, startPos.y + verticalSpeed * deathAnimCurve.Evaluate(time), transform.position.z + 0.5f * time);
+            time += Time.deltaTime;
+        }
     }
 
 
@@ -60,8 +80,14 @@ public abstract class EnemyBehaviour : MonoBehaviour
         Instantiate(collectableEffect, transform.position, Quaternion.identity, playerTransform);
         Destroy(gameObject, 3f); // Kills enemy if health reaches 0
         bc.enabled = false;
-        animator.SetTrigger("Died");
 
+        transform.parent = playerTransform;
+        animator.SetTrigger("Died");
+        death = true;
+        startPos = transform.position;
+
+        transform.DORotate(deathRotation, 0.1f).SetLoops(-1, LoopType.Incremental);
+        transform.DOScale(0, 2f);
 
         // Updates defeat beasts achivements
         for (int i = 4; i <=6; i++)
