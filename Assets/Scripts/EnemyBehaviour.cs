@@ -19,6 +19,8 @@ public abstract class EnemyBehaviour : MonoBehaviour
     public Light l;
     public float attackDistance = 0;
 
+    public AnimationCurve deathAnimCurve;
+
 
     public virtual void Start()
     {

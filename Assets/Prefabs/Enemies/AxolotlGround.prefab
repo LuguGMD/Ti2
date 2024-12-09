@@ -118,6 +118,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4429f4386d80ced468dce6c0714162be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iconName: 
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration: []
   nextPositions: []
+  l: {fileID: 0}
+  attackDistance: 0
+  hitAnimCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1.9009435
+      outSlope: 1.9009435
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.13108966
+    - serializedVersion: 3
+      time: 0.4921655
+      value: 0.6749531
+      inSlope: 0.9039145
+      outSlope: 0.9039145
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.13972403
+      outWeight: 0.15961646
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.38993695
+      outSlope: 0.38993695
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.22810411
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
