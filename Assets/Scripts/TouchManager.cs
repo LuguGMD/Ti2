@@ -114,20 +114,24 @@ public class TouchManager : MonoBehaviour
     {
         if (!GameManager.instance.gamePaused)
         {
-            if (!attacking)
+            GameManager.instance.lastAttackPos = touch0PressedSide;
+
+            AnimatorClipInfo animatorinfo = GameManager.instance.playerAnim.GetCurrentAnimatorClipInfo(0)[0];
+            if (touch0PressedSide == "left")
             {
-                attacking = true;
-                GameManager.instance.lastAttackPos = new Vector2(attackPos.position.x, attackPos.position.y);
-                if (touch0PressedSide == "left")
-                {
+                //if (animatorinfo.clip.name != "PlayerRig_PlayerAttack Top")
+                //{
                     GameManager.instance.playerAnim.SetTrigger("AttackedTop");
                     GameManager.instance.swordAnim.SetTrigger("AttackedTop");
-                }
-                else
-                {
+                //}
+            }
+            else
+            {
+                //if (animatorinfo.clip.name != "PlayerRig_PlayerAttack Base")
+                //{
                     GameManager.instance.playerAnim.SetTrigger("AttackedBase");
                     GameManager.instance.swordAnim.SetTrigger("AttackedBase");
-                }
+                //}
             }
             
 

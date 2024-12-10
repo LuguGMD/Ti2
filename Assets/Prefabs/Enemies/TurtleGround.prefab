@@ -948,7 +948,7 @@ MonoBehaviour:
   notesDuration: []
   nextPositions: []
   l: {fileID: 96791734814397639}
-  attackDistance: 0
+  attackDistance: 2
   bc: {fileID: -3597338432716966168}
   animator: {fileID: 4414168004982249422}
   deathRotation: {x: 60, y: -45, z: 0}

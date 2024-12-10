@@ -1205,7 +1205,7 @@ MonoBehaviour:
   notesDuration: []
   nextPositions: []
   l: {fileID: 8093578309019310880}
-  attackDistance: 0
+  attackDistance: 2
   bc: {fileID: -8051967829274100887}
   animator: {fileID: 8524086220076551597}
   deathRotation: {x: 60, y: -45, z: 30}
@@ -1243,6 +1243,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   scoreRate: 0.1
+  bar: {fileID: 8278141660416462191}
 --- !u!95 &8524086220076551597
 Animator:
   serializedVersion: 5
@@ -1335,10 +1336,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6185884500262355345}
     m_Modifications:
-    - target: {fileID: 2612117964627670958, guid: 6993aad11e71ca343bf02986b81cac9f, type: 3}
-      propertyPath: m_Size.x
-      value: 7.67
-      objectReference: {fileID: 0}
     - target: {fileID: 4484574430728790356, guid: 6993aad11e71ca343bf02986b81cac9f, type: 3}
       propertyPath: m_Name
       value: HoldBar
@@ -1391,5 +1388,10 @@ PrefabInstance:
 --- !u!4 &542903010346785 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6242036690989645280, guid: 6993aad11e71ca343bf02986b81cac9f, type: 3}
+  m_PrefabInstance: {fileID: 6242488846138751681}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &8278141660416462191 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 2612117964627670958, guid: 6993aad11e71ca343bf02986b81cac9f, type: 3}
   m_PrefabInstance: {fileID: 6242488846138751681}
   m_PrefabAsset: {fileID: 0}
