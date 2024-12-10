@@ -17,7 +17,8 @@ public class GameManager : MonoBehaviour
     public Animator swordAnim;
     private bool fullCombo = true;
 
-    public Vector2 lastAttackPos;
+    public string lastAttackPos;
+    public RectTransform[] effectPos;
 
     [Header("Health")]
     public int health = 100;
@@ -125,28 +126,39 @@ public class GameManager : MonoBehaviour
         if(powerupActive) multiply *= precisionValues.powerupMultiplier;
 
         int score = 0;
+        int ind = 0;
 
         if(precision > precisionValues.okCheck)
         {
             score = precisionValues.badScore;
-            Instantiate(scorePopUps[0], Camera.main.WorldToViewportPoint(lastAttackPos) + Vector3.up * 50, Quaternion.identity, canvasUI);
-
+            ind = 0;
         }
         else if(precision > precisionValues.greatCheck)
         {
             score = precisionValues.okScore;
-            Instantiate(scorePopUps[1], Camera.main.WorldToViewportPoint(lastAttackPos) + Vector3.up * 50, Quaternion.identity, canvasUI);
+            ind = 1;
         }
         else if (precision > precisionValues.perfectCheck)
         {
             score = precisionValues.greatScore;
-            Instantiate(scorePopUps[2], Camera.main.WorldToViewportPoint(lastAttackPos) + Vector3.up * 50, Quaternion.identity, canvasUI);
+            ind = 2;
         }
         else
         {
             score = precisionValues.perfectScore;
-            Instantiate(scorePopUps[3], Camera.main.WorldToViewportPoint(lastAttackPos) + Vector3.up * 50, Quaternion.identity, canvasUI);
+            ind = 3;
         }
+
+
+        if (lastAttackPos == "left")
+        {
+            Instantiate(scorePopUps[ind], effectPos[0]);
+        }
+        else
+        {
+            Instantiate(scorePopUps[ind], effectPos[1]);
+        }
+        
 
         score = (int)(score * multiply);
 

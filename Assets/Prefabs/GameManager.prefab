@@ -48,19 +48,24 @@ MonoBehaviour:
   baseSkin: {fileID: 0}
   playerAnim: {fileID: 0}
   swordAnim: {fileID: 0}
+  lastAttackPos: 
+  effectPos:
+  - {fileID: 0}
+  - {fileID: 0}
   health: 100
   healthBar: {fileID: 0}
   invincible: 0
   powerupValue: 0
   powerupBar: {fileID: 0}
   powerupActive: 0
-  powerupMult: 0
+  powerupMult: 1
   powerupDuration: 15
   coinsText: {fileID: 0}
   victoryPanelCoinsText: {fileID: 0}
   score: 0
   scoreText: {fileID: 0}
   victoryPanelScoreText: {fileID: 0}
+  scorePopUps: []
   comboText: {fileID: 0}
   victoryPanel: {fileID: 0}
   gameOverPanel: {fileID: 0}

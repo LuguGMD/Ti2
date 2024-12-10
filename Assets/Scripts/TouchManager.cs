@@ -114,23 +114,25 @@ public class TouchManager : MonoBehaviour
     {
         if (!GameManager.instance.gamePaused)
         {
-                AnimatorClipInfo animatorinfo = GameManager.instance.playerAnim.GetCurrentAnimatorClipInfo(0)[0];
-                if (touch0PressedSide == "left")
-                {
-                    //if (animatorinfo.clip.name != "PlayerRig_PlayerAttack Top")
-                    //{
-                        GameManager.instance.playerAnim.SetTrigger("AttackedTop");
-                        GameManager.instance.swordAnim.SetTrigger("AttackedTop");
-                    //}
-                }
-                else
-                {
-                    //if (animatorinfo.clip.name != "PlayerRig_PlayerAttack Base")
-                    //{
-                        GameManager.instance.playerAnim.SetTrigger("AttackedBase");
-                        GameManager.instance.swordAnim.SetTrigger("AttackedBase");
-                    //}
-                }
+            GameManager.instance.lastAttackPos = touch0PressedSide;
+
+            AnimatorClipInfo animatorinfo = GameManager.instance.playerAnim.GetCurrentAnimatorClipInfo(0)[0];
+            if (touch0PressedSide == "left")
+            {
+                //if (animatorinfo.clip.name != "PlayerRig_PlayerAttack Top")
+                //{
+                    GameManager.instance.playerAnim.SetTrigger("AttackedTop");
+                    GameManager.instance.swordAnim.SetTrigger("AttackedTop");
+                //}
+            }
+            else
+            {
+                //if (animatorinfo.clip.name != "PlayerRig_PlayerAttack Base")
+                //{
+                    GameManager.instance.playerAnim.SetTrigger("AttackedBase");
+                    GameManager.instance.swordAnim.SetTrigger("AttackedBase");
+                //}
+            }
             
 
             Collider[] enemyToDamage = Physics.OverlapSphere(attackPos.position, attackRange, enemyLayer); // Gets the firts enemy in player's attack area
