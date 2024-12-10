@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6380005297147843487}
   - component: {fileID: 4581914737326486179}
   - component: {fileID: 4629062562198356136}
+  - component: {fileID: 8760531675966054737}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -45,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdd9cd05319fcea499d0f31d50a2229e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseSkin: {fileID: 0}
+  baseSkin: {fileID: 2100000, guid: 67f68ac145ce4534ab28d2317ffcaaa3, type: 2}
   playerAnim: {fileID: 0}
   swordAnim: {fileID: 0}
   lastAttackPos: 
@@ -58,14 +59,18 @@ MonoBehaviour:
   powerupValue: 0
   powerupBar: {fileID: 0}
   powerupActive: 0
-  powerupMult: 1
+  powerupMult: 2
   powerupDuration: 15
   coinsText: {fileID: 0}
   victoryPanelCoinsText: {fileID: 0}
   score: 0
   scoreText: {fileID: 0}
   victoryPanelScoreText: {fileID: 0}
-  scorePopUps: []
+  scorePopUps:
+  - {fileID: 289403475673823347, guid: 82bdf16f2a4c15e4dad1ed2dd71a37d6, type: 3}
+  - {fileID: 289403475673823347, guid: eb9aba61d9a5fc84d96d3aa5957f3f00, type: 3}
+  - {fileID: 289403475673823347, guid: ee1d1a629e3d40649855f3e5daf84076, type: 3}
+  - {fileID: 5932137173758463629, guid: 4bb0e6b375f46f745841866bd936edb5, type: 3}
   comboText: {fileID: 0}
   victoryPanel: {fileID: 0}
   gameOverPanel: {fileID: 0}
@@ -90,7 +95,7 @@ MonoBehaviour:
     - comboValue: 100
       comboMultiplier: 2
   gamePaused: 0
-  saveSystem: {fileID: 0}
+  saveSystem: {fileID: 8760531675966054737}
   currentLevelId: 0
 --- !u!114 &4629062562198356136
 MonoBehaviour:
@@ -180,3 +185,15 @@ MonoBehaviour:
   gradientValue: 0
   change: 0
   speed: 5
+--- !u!114 &8760531675966054737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751415978490124822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6caabbf02c94bf245aa7ebc7165dca47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
