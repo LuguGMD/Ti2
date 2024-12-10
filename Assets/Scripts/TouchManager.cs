@@ -117,19 +117,19 @@ public class TouchManager : MonoBehaviour
                 AnimatorClipInfo animatorinfo = GameManager.instance.playerAnim.GetCurrentAnimatorClipInfo(0)[0];
                 if (touch0PressedSide == "left")
                 {
-                    if (animatorinfo.clip.name != "PlayerRig_PlayerAttack Top")
-                    {
+                    //if (animatorinfo.clip.name != "PlayerRig_PlayerAttack Top")
+                    //{
                         GameManager.instance.playerAnim.SetTrigger("AttackedTop");
                         GameManager.instance.swordAnim.SetTrigger("AttackedTop");
-                    }
+                    //}
                 }
                 else
                 {
-                    if (animatorinfo.clip.name != "PlayerRig_PlayerAttack Base")
-                    {
+                    //if (animatorinfo.clip.name != "PlayerRig_PlayerAttack Base")
+                    //{
                         GameManager.instance.playerAnim.SetTrigger("AttackedBase");
                         GameManager.instance.swordAnim.SetTrigger("AttackedBase");
-                    }
+                    //}
                 }
             
 

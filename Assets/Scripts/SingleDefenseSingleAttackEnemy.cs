@@ -63,15 +63,6 @@ public class SingleDefenseSingleAttackEnemy : EnemyBehaviour
         base.Death(precision);
     }
 
-    public override void Update()
-    {
-        base.Update();
-        if (transform.position.x - (playerTransform.position.x) <= attackDistance)
-        {
-            animator.SetTrigger("EnableAttack");
-        }
-    }
-
     private enum State
     {
         Idle = 0,

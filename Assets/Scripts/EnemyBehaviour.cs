@@ -58,6 +58,16 @@ public abstract class EnemyBehaviour : MonoBehaviour
             transform.position = new Vector3(startPos.x + horizontalSpeed * time, startPos.y + verticalSpeed * deathAnimCurve.Evaluate(time), transform.position.z + 0.5f * time);
             time += Time.deltaTime;
         }
+
+        if (transform.position.x - (playerTransform.position.x) <= attackDistance)
+        {
+            animator.SetTrigger("EnableAttack");
+            if(transform.position.y > 2f)
+            {
+                transform.DOLocalMoveY(0f, 0.3f);
+            }
+        }
+
     }
 
 
@@ -107,4 +117,7 @@ public abstract class EnemyBehaviour : MonoBehaviour
     {
         attackIcon.GetComponent<Image>().enabled = false;
     }
+
+
+
 }

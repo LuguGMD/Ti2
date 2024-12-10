@@ -64,8 +64,8 @@ public class HoldAttackEnemy : EnemyBehaviour
         AudioController.instance.PlayEnemySounds(notesDuration[0]);
         transform.parent = playerTransform; // Makes the enemy move with the player
         float timer = 0f;
-        animator.SetTrigger("Attacked");
         attacked = true;
+        animator.SetTrigger("Attacked");
 
         while (timer < notesDuration[0])
         {

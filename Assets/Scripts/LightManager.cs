@@ -7,9 +7,15 @@ public class LightManager : MonoBehaviour
     public GameManager gm;
     public Light sceneLight;
     public List<Material> materials;
+
+    public Material skybox;
     
     public Color currentColor = Color.white;
     public Gradient gradient;
+    public Gradient skyGradient;
+    public float dayExposure;
+    public float nightExposure;
+
     [Range(0f, 1f)]
     public float gradientValue;
 
@@ -23,6 +29,8 @@ public class LightManager : MonoBehaviour
         {
             materials[i].SetFloat("_NightTime", 0f);
         }
+        skybox.SetColor("_SkyTint", skyGradient.Evaluate(0f));
+        skybox.SetFloat("_Exposure", dayExposure);
     }
 
     private void Update()
@@ -33,6 +41,8 @@ public class LightManager : MonoBehaviour
             gradientValue = Mathf.Clamp(gradientValue, 0f, 1f);
 
             currentColor = gradient.Evaluate(gradientValue);
+            skybox.SetColor("_SkyTint", skyGradient.Evaluate(gradientValue));
+            skybox.SetFloat("_Exposure", Mathf.Lerp(dayExposure, nightExposure, gradientValue));
             sceneLight.color = currentColor;
             
             for(int i = 0; i < materials.Count; i++) 

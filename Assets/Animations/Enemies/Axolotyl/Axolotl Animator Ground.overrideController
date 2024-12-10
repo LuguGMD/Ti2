@@ -8,4 +8,12 @@ AnimatorOverrideController:
   m_PrefabAsset: {fileID: 0}
   m_Name: Axolotl Animator Ground
   m_Controller: {fileID: 9100000, guid: 8e444db460fd82c45af5359a9967770d, type: 2}
-  m_Clips: []
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 18e795db8e6cdd641a03a97c4430745b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 26a3efc5474a7994f86f97ef154edca0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 10b16215761b25e429946380c0edee9b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1ba2daadbca41f94b90737bbc0cd7c9c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 675f82a6598d67f48bfb77fe40f4ccd7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1ba2daadbca41f94b90737bbc0cd7c9c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4591c167823a0f049973023dc3036b90, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cf894a4f394687b49b8fc4697c7a0a15, type: 2}
