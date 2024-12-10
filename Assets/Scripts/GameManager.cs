@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
     public Animator swordAnim;
     private bool fullCombo = true;
 
+    public Vector2 lastAttackPos;
+
     [Header("Health")]
     public int health = 100;
     public Slider healthBar;
@@ -31,6 +33,8 @@ public class GameManager : MonoBehaviour
     public float powerupDuration;
 
     [Header("HUD")]
+    private Transform canvasUI;
+
     private int coins; // Number of coins the player has gotten in the current level
     public TMP_Text coinsText;
     public TMP_Text victoryPanelCoinsText;
@@ -38,6 +42,7 @@ public class GameManager : MonoBehaviour
     public int score;
     public TMP_Text scoreText;
     public TMP_Text victoryPanelScoreText;
+    public GameObject[] scorePopUps;
 
     private int combo = 0;
     public TMP_Text comboText;
@@ -79,7 +84,8 @@ public class GameManager : MonoBehaviour
 
         UpdateComboText();
         UpdateHealthBar();
-        UpdatePowerupBar();
+        UpdatePowerupBar(); 
+        canvasUI = GameObject.Find("UI").GetComponent<Transform>();
 
         if(SceneManager.GetActiveScene().buildIndex == 0)
         {
@@ -105,8 +111,6 @@ public class GameManager : MonoBehaviour
 
     public void AddScore(float precision)
     {
-        //Debug.Log(precision);
-
         float multiply = 1;
         List<ComboMultiply> combos = precisionValues.comboMultiplyList;
         
@@ -125,18 +129,23 @@ public class GameManager : MonoBehaviour
         if(precision > precisionValues.okCheck)
         {
             score = precisionValues.badScore;
+            Instantiate(scorePopUps[0], Camera.main.WorldToViewportPoint(lastAttackPos) + Vector3.up * 50, Quaternion.identity, canvasUI);
+
         }
         else if(precision > precisionValues.greatCheck)
         {
             score = precisionValues.okScore;
+            Instantiate(scorePopUps[1], Camera.main.WorldToViewportPoint(lastAttackPos) + Vector3.up * 50, Quaternion.identity, canvasUI);
         }
         else if (precision > precisionValues.perfectCheck)
         {
             score = precisionValues.greatScore;
+            Instantiate(scorePopUps[2], Camera.main.WorldToViewportPoint(lastAttackPos) + Vector3.up * 50, Quaternion.identity, canvasUI);
         }
         else
         {
             score = precisionValues.perfectScore;
+            Instantiate(scorePopUps[3], Camera.main.WorldToViewportPoint(lastAttackPos) + Vector3.up * 50, Quaternion.identity, canvasUI);
         }
 
         score = (int)(score * multiply);

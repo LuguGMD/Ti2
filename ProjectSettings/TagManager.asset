@@ -52,3 +52,6 @@ TagManager:
   - name: HitMarker
     uniqueID: 1414404855
     locked: 0
+  - name: HitPopUp
+    uniqueID: 1103940235
+    locked: 0

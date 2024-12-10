@@ -117,6 +117,7 @@ public class TouchManager : MonoBehaviour
             if (!attacking)
             {
                 attacking = true;
+                GameManager.instance.lastAttackPos = new Vector2(attackPos.position.x, attackPos.position.y);
                 if (touch0PressedSide == "left")
                 {
                     GameManager.instance.playerAnim.SetTrigger("AttackedTop");

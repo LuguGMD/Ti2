@@ -40560,9 +40560,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 219639248}
     - target: {fileID: 4581914737326486179, guid: 8cbae775798fddb458d747fcd740c4fe, type: 3}
+      propertyPath: scorePopUps.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4581914737326486179, guid: 8cbae775798fddb458d747fcd740c4fe, type: 3}
       propertyPath: victoryPanelPointsText
       value: 
       objectReference: {fileID: 366582149}
+    - target: {fileID: 4581914737326486179, guid: 8cbae775798fddb458d747fcd740c4fe, type: 3}
+      propertyPath: scorePopUps.Array.data[0]
+      value: 
+      objectReference: {fileID: 289403475673823347, guid: 82bdf16f2a4c15e4dad1ed2dd71a37d6, type: 3}
+    - target: {fileID: 4581914737326486179, guid: 8cbae775798fddb458d747fcd740c4fe, type: 3}
+      propertyPath: scorePopUps.Array.data[1]
+      value: 
+      objectReference: {fileID: 289403475673823347, guid: eb9aba61d9a5fc84d96d3aa5957f3f00, type: 3}
+    - target: {fileID: 4581914737326486179, guid: 8cbae775798fddb458d747fcd740c4fe, type: 3}
+      propertyPath: scorePopUps.Array.data[2]
+      value: 
+      objectReference: {fileID: 289403475673823347, guid: ee1d1a629e3d40649855f3e5daf84076, type: 3}
+    - target: {fileID: 4581914737326486179, guid: 8cbae775798fddb458d747fcd740c4fe, type: 3}
+      propertyPath: scorePopUps.Array.data[3]
+      value: 
+      objectReference: {fileID: 289403475673823347, guid: 4bb0e6b375f46f745841866bd936edb5, type: 3}
     - target: {fileID: 4629062562198356136, guid: 8cbae775798fddb458d747fcd740c4fe, type: 3}
       propertyPath: sceneLight
       value: 
