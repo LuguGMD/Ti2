@@ -6151,16 +6151,16 @@ MonoBehaviour:
     price: 0
     unlocked: 1
   - mat: {fileID: 2100000, guid: 0aff76df125bd6146a3cdfc66d5587dd, type: 2}
-    price: 50
+    price: 25
     unlocked: 0
   - mat: {fileID: 2100000, guid: 79023e01be882cd4db4db05e8534fa2b, type: 2}
-    price: 50
+    price: 25
     unlocked: 0
   - mat: {fileID: 2100000, guid: d9f0de67cad0a064cb49574187171fda, type: 2}
-    price: 100
+    price: 75
     unlocked: 0
   - mat: {fileID: 2100000, guid: 612e8a0fbdd00b841817fcfa61e839fb, type: 2}
-    price: 300
+    price: 250
     unlocked: 0
   buyText: {fileID: 1985734664}
   skinPreview:

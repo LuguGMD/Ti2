@@ -62,7 +62,7 @@ public abstract class EnemyBehaviour : MonoBehaviour
         if (transform.position.x - (playerTransform.position.x) <= attackDistance)
         {
             animator.SetTrigger("EnableAttack");
-            if(transform.position.y > 2f)
+            if(transform.position.y > 2f && transform.position.x - (playerTransform.position.x) < 2f)
             {
                 transform.DOLocalMoveY(0f, 0.3f);
             }
