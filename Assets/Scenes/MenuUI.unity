@@ -6162,7 +6162,7 @@ MonoBehaviour:
     price: 75
     unlocked: 0
   - mat: {fileID: 2100000, guid: 612e8a0fbdd00b841817fcfa61e839fb, type: 2}
-    price: 250
+    price: 200
     unlocked: 0
   buyText: {fileID: 1985734664}
   skinPreview:
