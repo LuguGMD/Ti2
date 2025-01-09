@@ -4074,11 +4074,11 @@ PrefabInstance:
       objectReference: {fileID: 587421640}
     - target: {fileID: 3675811918600655856, guid: 718af2cce70a9d84983228f01c983b26, type: 3}
       propertyPath: type.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3675811918600655856, guid: 718af2cce70a9d84983228f01c983b26, type: 3}
       propertyPath: enemies.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3675811918600655856, guid: 718af2cce70a9d84983228f01c983b26, type: 3}
       propertyPath: type.Array.data[2]

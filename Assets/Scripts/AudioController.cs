@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class AudioController : MonoBehaviour
 {
@@ -14,6 +15,9 @@ public class AudioController : MonoBehaviour
 
     [SerializeField] private AudioClip[] bgMusicClips;
     [SerializeField] private AudioClip[] sfxClips;
+
+    [SerializeField] private Slider musicSlider;
+    [SerializeField] private Slider sfxSlider;
 
     private void Awake()
     {
@@ -30,11 +34,14 @@ public class AudioController : MonoBehaviour
 
     public void Start()
     {
-        // Sets audio groups volume
-        float volume = ConvertToDB(PlayerPrefs.GetFloat("MusicVolume", 1));
-        audioMixer.SetFloat("MusicVolume", volume);
-        volume = ConvertToDB(PlayerPrefs.GetFloat("SFXVolume", 1));
-        audioMixer.SetFloat("SFXVolume", volume);
+        // Sets audio groups volume and set volume sliders to saved values
+        float volume = PlayerPrefs.GetFloat("MusicVolume", 1);
+        musicSlider.value = volume;
+        audioMixer.SetFloat("MusicVolume", ConvertToDB(volume));
+
+        volume = PlayerPrefs.GetFloat("SFXVolume", 1);
+        sfxSlider.value = volume;
+        audioMixer.SetFloat("SFXVolume", ConvertToDB(volume));
     }
 
     public float ConvertToDB(float value)
@@ -91,5 +98,41 @@ public class AudioController : MonoBehaviour
             yield return null;
         }
         yield break;
+    }
+
+    public void PlaySFX(string fileName)
+    {
+        int index = FindSFXIndex(fileName);
+        if (index != -1)
+        {
+            sfxAudioSource.PlayOneShot(sfxClips[index]);
+        }
+    }
+
+    private int FindSFXIndex(string fileName)
+    {
+        int index = -1;
+
+        for (int i = 0; i < sfxClips.Length; i++)
+        {
+            if (sfxClips[i].name == fileName)
+            {
+                index = i;
+            }
+        }
+
+        return index;
+    }
+
+    public void UpdateMusicVolume(float value)
+    {
+        PlayerPrefs.SetFloat("MusicVolume", value);
+        audioMixer.SetFloat("MusicVolume", ConvertToDB(value));
+    }
+
+    public void UpdateSFXVolume(float value)
+    {
+        PlayerPrefs.SetFloat("SFXVolume", value);
+        audioMixer.SetFloat("SFXVolume", ConvertToDB(value));
     }
 }
