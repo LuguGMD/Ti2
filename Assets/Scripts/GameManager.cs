@@ -88,7 +88,7 @@ public class GameManager : MonoBehaviour
         UpdatePowerupBar(); 
         canvasUI = GameObject.Find("UI").GetComponent<Transform>();
 
-        if(SceneManager.GetActiveScene().buildIndex == 0)
+        if (SceneManager.GetActiveScene().buildIndex == 0)
         {
             //playerAnim.SetTrigger("Died");
             //swordAnim.SetTrigger("Died");

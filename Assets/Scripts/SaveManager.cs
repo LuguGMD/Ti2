@@ -51,6 +51,7 @@ public class SaveManager : MonoBehaviour
             // If there is no save, create a default save
             PlayerData defaultSave = new PlayerData(2, 5);
             defaultSave.SetLevelInfo(0, 0, true, 0);
+            defaultSave.SetLevelInfo(0, 0, false, 1);
             defaultSave.LoadAchivements();
             saveSystem.SavePlayerData(defaultSave);
         }

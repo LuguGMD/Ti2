@@ -66,7 +66,7 @@ public class AudioController : MonoBehaviour
         // Unmutes the part of the soundtrack composed by the enemies
 
         StopAllCoroutines();
-        audioMixer.SetFloat("EnemySoundsVolume", 5);  // Unmutes EnemySounds audio mixer group
+        audioMixer.SetFloat("EnemySoundsVolume", 0);  // Unmutes EnemySounds audio mixer group
 
         StartCoroutine(FadeOut(fadeOutStart));  // The EnemySounds audio mixer group stays unmuted for the duration of the hit enemy's note 
         //StartCoroutine(Camera.main.GetComponent<CameraShake>().Shake()); // Activates Camera Shake
@@ -86,7 +86,7 @@ public class AudioController : MonoBehaviour
         audioMixer.GetFloat("EnemySoundsVolume", out float startVolume);
         while (time < fadeOutDuration)
         {
-            audioMixer.SetFloat("EnemySoundsVolume", Mathf.Lerp(startVolume, -80, time / fadeOutDuration));
+            audioMixer.SetFloat("EnemySoundsVolume", Mathf.Lerp(startVolume, -5, time / fadeOutDuration));
             time += Time.deltaTime;
             yield return null;
         }
