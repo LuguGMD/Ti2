@@ -36,11 +36,11 @@ public class AudioController : MonoBehaviour
     {
         // Sets audio groups volume and set volume sliders to saved values
         float volume = PlayerPrefs.GetFloat("MusicVolume", 1);
-        musicSlider.value = volume;
+        if (musicSlider != null) musicSlider.value = volume;
         audioMixer.SetFloat("MusicVolume", ConvertToDB(volume));
 
         volume = PlayerPrefs.GetFloat("SFXVolume", 1);
-        sfxSlider.value = volume;
+        if (sfxSlider != null) sfxSlider.value = volume;
         audioMixer.SetFloat("SFXVolume", ConvertToDB(volume));
     }
 
