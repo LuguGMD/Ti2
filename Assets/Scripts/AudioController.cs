@@ -105,6 +105,7 @@ public class AudioController : MonoBehaviour
         int index = FindSFXIndex(fileName);
         if (index != -1)
         {
+            sfxAudioSource.pitch = Random.Range(0.9f, 1.2f);
             sfxAudioSource.PlayOneShot(sfxClips[index]);
         }
     }
