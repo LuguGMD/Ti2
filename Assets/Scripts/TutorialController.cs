@@ -48,6 +48,7 @@ public class TutorialController : MonoBehaviour
                     type.RemoveAt(0);
                     tutorial = false;
                     EndTutorial();
+                    DialogueManager.instance.DisplayNextSentence();
                 }
             }
         }

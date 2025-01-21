@@ -66,6 +66,7 @@ public class HoldAttackEnemy : EnemyBehaviour
         float timer = 0f;
         attacked = true;
         animator.SetTrigger("Attacked");
+        bc.enabled = false;
 
         while (timer < notesDuration[0])
         {

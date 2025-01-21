@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd3c3ba14d666bb48b12a1e92f92cebd, type: 3}
+  m_Name: TutorialLevel1
+  m_EditorClassIdentifier: 
+  name: Villager
+  artwork: {fileID: 0}
+  sentences:
+  - text: Hello there! I will teach you how to defeat beasts
+    duration: 2
+    waitForInput: 0
+  - text: You will need to tap either side of the screen when a beast enters one
+      of the round targets
+    duration: 2.4
+    waitForInput: 0
+  - text: Let's see it in practice! Wait for the first beast to enter the target
+      on the ground.
+    duration: 2.2
+    waitForInput: 0
+  - text: To defeat beasts on the ground, press the right side of the screen
+    duration: 0
+    waitForInput: 1
+  - text: Great! Now wait for the next one
+    duration: 1.4
+    waitForInput: 0
+  - text: To defeat beasts on the air, press the left side of the screen
+    duration: 0
+    waitForInput: 1
+  - text: Well done! Now use what you've learned to get through the next wave of
+      beasts
+    duration: 15
+    waitForInput: 0
+  - text: Great job!
+    duration: 1.5
+    waitForInput: 0
+  - text: Watch out though. There is a new type of beast incoming
+    duration: 2
+    waitForInput: 0
+  - text: Once again, wait for it to enter the target on the ground
+    duration: 2
+    waitForInput: 0
+  - text: 'To defeat a butterfly you need to hold the attack.
+
+      Hold the right
+      side of the screen until the bar disapears'
+    duration: 0
+    waitForInput: 1
+  - text: 'Nice! '
+    duration: 3.1
+    waitForInput: 0
+  - text: Now, wait again for the next enemy
+    duration: 1
+    waitForInput: 0
+  - text: Hold the left side of the screen until the bar disapears
+    duration: 0
+    waitForInput: 1
+  - text: Good job!
+    duration: 3.1
+    waitForInput: 0
+  - text: Once again, defeat the next wave of beasts on your own
+    duration: 26.3
+    waitForInput: 0
+  - text: You are good at this!
+    duration: 1.2
+    waitForInput: 0
+  - text: The final wave is incoming. Use everything you've learned to defeat it
+    duration: 17.8
+    waitForInput: 0
+  - text: Well done! You've now learned everything you need to know
+    duration: 1.5
+    waitForInput: 0

@@ -8,7 +8,6 @@ public class SingleDefenseSingleAttackEnemy : EnemyBehaviour
     public AnimationCurve hitAnimCurve;
 
     private State currentState = State.Idle;
-    private Animator animator;
 
     public override void Start()
     {
