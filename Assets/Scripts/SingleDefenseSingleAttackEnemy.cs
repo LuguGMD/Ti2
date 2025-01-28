@@ -37,6 +37,7 @@ public class SingleDefenseSingleAttackEnemy : EnemyBehaviour
 
     public void Defended(float precision)
     {
+        bc.enabled = false;
         AudioController.instance.PlayEnemySounds(notesDuration[0]); // Plays the music when the enemy is hit
 
         GameManager.instance.AddPoint();
@@ -53,7 +54,8 @@ public class SingleDefenseSingleAttackEnemy : EnemyBehaviour
         sequence.OnComplete(() =>
         {
             transform.DOShakeScale(0.2f, 1.2f);
-        });
+            bc.enabled = true;
+        });;
     }
 
     public override void Death(float precision)

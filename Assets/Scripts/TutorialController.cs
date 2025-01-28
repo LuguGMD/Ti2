@@ -44,11 +44,11 @@ public class TutorialController : MonoBehaviour
             {
                 if (!enemies[0].bc.enabled || enemies[0] == null) 
                 {
+                    enemies[0].animator.speed = 1;
                     enemies.RemoveAt(0);
                     type.RemoveAt(0);
                     tutorial = false;
                     EndTutorial();
-                    DialogueManager.instance.DisplayNextSentence();
                 }
             }
         }
@@ -88,6 +88,7 @@ public class TutorialController : MonoBehaviour
     public void FreezeGame()
     {
         AudioController.instance.PauseMusic();
+        enemies[0].animator.speed = 0;
         move.XSpeed = 0;
     }
 

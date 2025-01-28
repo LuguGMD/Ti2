@@ -30,10 +30,10 @@ public class SkinManager : MonoBehaviour
             SaveManager.instance.saveSystem.SavePlayerData(playerData);
 
             // Updates buy skins achivements
-            for (int i = 7;i <= 8; i++)
+            for (int i = 9;i <= 10; i++)
             {
-                AchievementSystem.instance.UpdateAchievement(i, 1); // Achivement Id = 7 -> Buy 1 skin achivement
-                                                                    // Achivement Id = 8 -> Buy all skins achivement   
+                AchievementSystem.instance.UpdateAchievement(i, 1); // Achivement Id = 9-> Buy 1 skin achivement
+                                                                    // Achivement Id = 10 -> Buy all skins achivement   
             }
 
             StartCoroutine(AchievementSystem.instance.CheckUnlocked());

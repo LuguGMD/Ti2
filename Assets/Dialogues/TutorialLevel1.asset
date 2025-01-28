@@ -15,66 +15,66 @@ MonoBehaviour:
   name: Villager
   artwork: {fileID: 0}
   sentences:
-  - text: Hello there! I will teach you how to defeat beasts
+  - text: Hello there! I will teach you how to attack beasts.
     duration: 2
     waitForInput: 0
   - text: You will need to tap either side of the screen when a beast enters one
-      of the round targets
+      of the round targets.
     duration: 2.4
     waitForInput: 0
   - text: Let's see it in practice! Wait for the first beast to enter the target
       on the ground.
-    duration: 2.2
+    duration: 2
     waitForInput: 0
-  - text: To defeat beasts on the ground, press the right side of the screen
+  - text: To attack beasts on the ground, press the right side of the screen.
     duration: 0
     waitForInput: 1
-  - text: Great! Now wait for the next one
+  - text: Great! Now wait for the next one.
     duration: 1.4
     waitForInput: 0
-  - text: To defeat beasts on the air, press the left side of the screen
+  - text: To attack beasts on the air, press the left side of the screen.
     duration: 0
     waitForInput: 1
   - text: Well done! Now use what you've learned to get through the next wave of
-      beasts
+      beasts.
     duration: 15
     waitForInput: 0
   - text: Great job!
     duration: 1.5
     waitForInput: 0
-  - text: Watch out though. There is a new type of beast incoming
+  - text: Watch out though. There is a new type of beast incoming.
     duration: 2
     waitForInput: 0
-  - text: Once again, wait for it to enter the target on the ground
+  - text: Once again, wait for it to enter the target on the ground.
     duration: 2
     waitForInput: 0
   - text: 'To defeat a butterfly you need to hold the attack.
 
       Hold the right
-      side of the screen until the bar disapears'
+      side of the screen until the bar disapears.'
     duration: 0
     waitForInput: 1
   - text: 'Nice! '
-    duration: 3.1
+    duration: 0.5
     waitForInput: 0
-  - text: Now, wait again for the next enemy
-    duration: 1
+  - text: Now, wait again for the next enemy.
+    duration: 0.5
     waitForInput: 0
-  - text: Hold the left side of the screen until the bar disapears
+  - text: Hold the left side of the screen until the bar disapears.
     duration: 0
     waitForInput: 1
   - text: Good job!
     duration: 3.1
     waitForInput: 0
-  - text: Once again, defeat the next wave of beasts on your own
-    duration: 26.3
+  - text: Once again, defeat the next wave of beasts on your own.
+    duration: 22.7
     waitForInput: 0
   - text: You are good at this!
-    duration: 1.2
+    duration: 1
     waitForInput: 0
-  - text: The final wave is incoming. Use everything you've learned to defeat it
+  - text: The final wave is incoming. Use everything you've learned to defeat it.
     duration: 17.8
     waitForInput: 0
-  - text: Well done! You've now learned everything you need to know
+  - text: Well done! You've now learned everything you need to know.
     duration: 1.5
     waitForInput: 0

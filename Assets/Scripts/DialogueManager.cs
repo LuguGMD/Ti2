@@ -14,6 +14,7 @@ public class DialogueManager : MonoBehaviour
     public RectTransform dialogueBox;
 
     private Queue<Sentence> sentences;
+    private int currentSentence = -1;
 
     private void Awake()
     {
@@ -62,9 +63,24 @@ public class DialogueManager : MonoBehaviour
         else
         {
             Sentence sentence = sentences.Dequeue();
+            currentSentence++;
             StopAllCoroutines();
             StartCoroutine(TypeSentence(sentence));
         }
+    }
+
+    public void SkipToSentence(int index)
+    {
+        Debug.Log("Skip");
+        int sentencesToSkip = index - currentSentence - 1;
+
+        for (int i = 0; i < sentencesToSkip; i++)
+        {
+            sentences.Dequeue();
+            currentSentence++;
+        }
+
+        DisplayNextSentence();
     }
 
     IEnumerator TypeSentence(Sentence sentence)

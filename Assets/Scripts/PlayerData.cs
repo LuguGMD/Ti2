@@ -45,9 +45,9 @@ public class PlayerData
 [System.Serializable]
 public class LevelSaveData
 {
-    public int coins;
-    public int score;
-    public bool unlocked;
+    public int coins = 0;
+    public int score = 0;
+    public bool unlocked = false;
 
     public LevelSaveData(int coins, int score, bool unlocked)
     {

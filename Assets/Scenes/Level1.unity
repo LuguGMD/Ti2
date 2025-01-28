@@ -609,6 +609,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.26260522
@@ -1900,6 +1902,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3781515
@@ -2454,6 +2458,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2731094
@@ -8463,6 +8469,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.47794148
@@ -12155,6 +12163,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.6302525
@@ -13370,6 +13380,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.50945413
@@ -15142,6 +15154,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3623952
@@ -17220,6 +17234,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.252101
@@ -25645,6 +25661,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -34523,6 +34541,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.0766814
@@ -34901,6 +34921,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 3.01996
@@ -35237,6 +35259,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.13130261
@@ -37155,6 +37179,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.1260505
@@ -38692,6 +38718,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -40767,6 +40795,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.120798394
@@ -41147,6 +41177,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.5199583
@@ -42433,6 +42465,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.207984
@@ -44957,6 +44991,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -46996,6 +47032,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3781515
@@ -47524,6 +47562,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -51414,6 +51454,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -57294,6 +57336,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -57621,6 +57665,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.6617651
@@ -58761,6 +58807,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -58961,6 +59009,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.1260505
@@ -61207,6 +61257,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.24159679
@@ -61459,6 +61511,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.44117674
@@ -62064,6 +62118,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3623952
@@ -62932,6 +62988,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.1260505
@@ -63186,6 +63244,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -64136,6 +64196,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.5199583
@@ -65666,6 +65728,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3834036
@@ -68628,6 +68692,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.252101
@@ -74508,6 +74574,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.252101
@@ -75742,6 +75810,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.7510509
@@ -77724,6 +77794,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.252101
@@ -80671,6 +80743,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -81887,6 +81961,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -85500,6 +85576,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -87656,6 +87734,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -89347,6 +89427,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -89602,6 +89684,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -90887,6 +90971,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2731094
@@ -93957,6 +94043,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -95952,6 +96040,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.1260505
@@ -96268,6 +96358,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.756303
@@ -103196,6 +103288,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -103449,6 +103543,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.1260505
@@ -104823,6 +104919,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -108408,6 +108506,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.252101
@@ -110909,6 +111009,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.252101
@@ -112412,6 +112514,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.5199583
@@ -116142,6 +116246,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.20483206
@@ -117223,6 +117329,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2678573
@@ -121326,6 +121434,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.1260505
@@ -121862,6 +121972,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -122525,6 +122637,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -129604,6 +129718,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.6460088
@@ -129729,6 +129845,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.84558874
@@ -130730,6 +130848,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.1260505
@@ -133969,6 +134089,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3676473
@@ -134096,6 +134218,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -137764,6 +137888,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3834036
@@ -140018,6 +140144,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 2.7626069
@@ -141488,6 +141616,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.252101
@@ -142848,6 +142978,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.1260505
@@ -143607,6 +143739,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -146560,6 +146694,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -146779,6 +146915,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -147837,6 +147975,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.77731144
@@ -148833,6 +148973,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.252101
@@ -151629,6 +151771,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.5304625
@@ -152430,6 +152574,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -153611,6 +153757,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.0031519
@@ -156545,6 +156693,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.252101
@@ -158326,6 +158476,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3623952
@@ -158451,6 +158603,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.252101
@@ -160741,6 +160895,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.252101
@@ -161343,6 +161499,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.120798394
@@ -162735,6 +162893,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3781515
@@ -162894,6 +163054,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.0241603
@@ -167700,6 +167862,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.7668072
@@ -168440,154 +168604,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: popUpPrefab
-      value: 
-      objectReference: {fileID: 8319281408470412996, guid: 58ba137bee4d39942b420ab100952e88, type: 3}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.size
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[0].name
-      value: Humble Beginnings
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[1].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[1].name
-      value: Drop the Beat
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[2].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[2].name
-      value: George of the Jungle
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[3].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[3].name
-      value: I Yearn for the Mines
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[4].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[4].name
-      value: Village Defender
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[5].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[5].name
-      value: Fearful Fighter
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[6].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[6].name
-      value: Beast Slayer
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[7].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[7].name
-      value: Wardrobe Change
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[8].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[8].name
-      value: Shopping Spree
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[4].value
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[4].unlocked
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[1].description
-      value: Finish Level 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[1].requirement
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[2].description
-      value: Get a full combo in Level 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[2].requirement
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[3].description
-      value: Get a full combo in Level 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[3].requirement
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[4].description
-      value: Defeat 100 beasts
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[4].requirement
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[5].description
-      value: Defeat 300 beasts
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[5].requirement
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[6].description
-      value: Defeat 1000 beasts
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[6].requirement
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[7].description
-      value: Buy a skin
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[7].requirement
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[8].description
-      value: Buy all skins
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[8].requirement
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 3891902376632515092, guid: 722e21c258721f54e8f89024b152f231, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -175367,6 +175383,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -177119,6 +177137,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -177339,6 +177359,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -177590,6 +177612,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.252101
@@ -177781,6 +177805,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3676473
@@ -181170,6 +181196,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.0031519
@@ -186987,6 +187015,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.13130261
@@ -188486,6 +188516,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.1239502
@@ -197166,6 +197198,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.29411784
@@ -198593,6 +198627,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3781515
@@ -199277,6 +199313,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -199529,6 +199567,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.9978998
@@ -202368,6 +202408,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.15756312
@@ -202557,6 +202599,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.4884457
@@ -202779,6 +202823,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -205402,6 +205448,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 2.778363
@@ -205991,6 +206039,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -206340,6 +206390,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.21008417
@@ -206625,6 +206677,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.120798394
@@ -207818,6 +207872,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.252101
@@ -208669,6 +208725,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -212100,6 +212158,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.24159679
@@ -215792,6 +215852,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -216076,6 +216138,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.3025218
@@ -217394,6 +217458,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -219207,6 +219273,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -219523,6 +219591,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.2394966
@@ -220501,6 +220571,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.2342445
@@ -224795,6 +224867,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.6302525
@@ -225332,6 +225406,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.504202
@@ -227449,6 +227525,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.1260505
@@ -228126,6 +228204,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -231196,6 +231276,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.24159679
@@ -232006,6 +232088,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.9978998
@@ -236462,6 +236546,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.0189083
@@ -237695,6 +237781,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.0399166
@@ -237851,6 +237939,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.1260505
@@ -238166,6 +238256,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.120798394
@@ -241200,6 +241292,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -241608,6 +241702,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.260505
@@ -244294,6 +244390,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.24159679
@@ -246855,6 +246953,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.08928577
@@ -251440,6 +251540,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.008404
@@ -257420,6 +257522,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.35189098
@@ -258198,6 +258302,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.252101
@@ -258924,6 +259030,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.48319358
@@ -259632,6 +259740,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.13130261
@@ -261474,6 +261584,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -264997,6 +265109,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.9926477
@@ -265810,6 +265924,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3781515
@@ -266031,6 +266147,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -267002,6 +267120,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -268899,6 +269019,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.1260505
@@ -270623,6 +270745,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -271008,6 +271132,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -273178,6 +273304,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.9978998
@@ -273367,6 +273495,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.13130261
@@ -273686,6 +273816,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -273811,6 +273943,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.1260505
@@ -275097,6 +275231,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -275540,6 +275676,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.28361362
@@ -275730,6 +275868,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.9978998
@@ -276578,6 +276718,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -278740,6 +278882,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -279181,6 +279325,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.252101
@@ -279306,6 +279452,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.120798394
@@ -280836,6 +280984,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.1260505
@@ -282451,6 +282601,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.0136561
@@ -288423,6 +288575,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.33088255
@@ -290581,6 +290735,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.1260505
@@ -291342,6 +291498,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.0136561
@@ -291773,6 +291931,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -292593,6 +292753,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.120798394
@@ -294597,6 +294759,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -294894,6 +295058,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -296710,6 +296876,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -296898,6 +297066,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.2394966
@@ -298874,6 +299044,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -299001,6 +299173,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.252101
@@ -302267,6 +302441,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -305798,6 +305974,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -306302,6 +306480,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.008404
@@ -309436,6 +309616,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.4884457
@@ -311398,6 +311580,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 2.778363
@@ -311598,6 +311782,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -311823,6 +312009,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -312423,6 +312611,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.5199583
@@ -315480,6 +315670,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.29411784
@@ -318785,6 +318977,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.13130261
@@ -320616,6 +320810,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -320804,6 +321000,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -321151,6 +321349,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.120798394
@@ -321967,6 +322167,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -324472,6 +324674,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.48319358
@@ -324906,6 +325110,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -325729,6 +325935,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.120798394
@@ -325917,6 +326125,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.120798394
@@ -331061,6 +331271,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -332818,6 +333030,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3991599
@@ -333799,6 +334013,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.18907575
@@ -335239,6 +335455,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3623952
@@ -337608,6 +337826,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.120798394
@@ -339429,6 +339649,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.252101
@@ -341396,6 +341618,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -346353,6 +346577,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 2.773111
@@ -346489,6 +346715,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.7668072
@@ -348929,6 +349157,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.7720593
@@ -349316,6 +349546,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.008404
@@ -351530,6 +351762,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3834036
@@ -352471,6 +352705,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.55672306
@@ -354118,6 +354354,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -355935,6 +356173,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -356527,6 +356767,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -356683,6 +356925,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.22058837
@@ -358287,6 +358531,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.26260522
@@ -359661,6 +359907,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.5147062
@@ -362278,6 +362526,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.5147062
@@ -366444,6 +366694,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -366601,6 +366853,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.756303
@@ -372391,6 +372645,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -375026,6 +375282,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -385945,6 +386203,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -386612,6 +386872,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -386769,6 +387031,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -387484,6 +387748,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -396455,6 +396721,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.48319358
@@ -396772,6 +397040,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.37289938
@@ -398449,6 +398719,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.5199583
@@ -400572,6 +400844,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.2552528
@@ -400951,6 +401225,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.1260505
@@ -402997,6 +403273,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2573531
@@ -406167,6 +406445,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.7668072
@@ -406690,6 +406970,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.120798394
@@ -408565,6 +408847,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -408690,6 +408974,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.2468489
@@ -408817,6 +409103,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.35189098
@@ -410291,6 +410579,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3781515
@@ -413432,6 +413722,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.252101
@@ -413970,6 +414262,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.82983243
@@ -414159,6 +414453,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.50945413
@@ -414412,6 +414708,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.0136561
@@ -415995,6 +416293,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.120798394
@@ -418220,6 +418520,10 @@ PrefabInstance:
       propertyPath: gameOverPanel
       value: 
       objectReference: {fileID: 1461574923}
+    - target: {fileID: 4581914737326486179, guid: 8cbae775798fddb458d747fcd740c4fe, type: 3}
+      propertyPath: currentLevelId
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4581914737326486179, guid: 8cbae775798fddb458d747fcd740c4fe, type: 3}
       propertyPath: victoryPanelCoinsText
       value: 

@@ -3443,7 +3443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 174181872472332333}
   - component: {fileID: 5791020828420902774}
-  - component: {fileID: 3485587855891720825}
+  - component: {fileID: -605003968325784232}
   - component: {fileID: 4684403901160746734}
   m_Layer: 6
   m_Name: GorilaGround
@@ -3491,7 +3491,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.58, y: 1.9414548, z: 1.3728536}
   m_Center: {x: 1.4756957e-15, y: 0.94145495, z: 0.39615703}
---- !u!114 &3485587855891720825
+--- !u!114 &-605003968325784232
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3500,7 +3500,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7059745626317142143}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42c703cb60978e54785b98c07b628796, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c155acb7a619a84fb20d21164a72422, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: BottomExclamation
@@ -3541,39 +3541,6 @@ MonoBehaviour:
       tangentMode: 97
       weightedMode: 0
       inWeight: 0.30433956
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  hitAnimCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 1.9009435
-      outSlope: 1.9009435
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0.13108966
-    - serializedVersion: 3
-      time: 0.4921655
-      value: 0.6749531
-      inSlope: 0.9039145
-      outSlope: 0.9039145
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.13972403
-      outWeight: 0.15961646
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0.38993695
-      outSlope: 0.38993695
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.22810411
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2

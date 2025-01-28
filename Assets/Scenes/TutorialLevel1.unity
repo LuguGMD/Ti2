@@ -1713,6 +1713,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 1
+  targetSentence: 6
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 9.350652
@@ -1944,6 +1946,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.779221
@@ -2406,6 +2410,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.3896105
@@ -6644,6 +6650,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 3.116884
@@ -8052,6 +8060,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.1688315
@@ -8885,6 +8895,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 3.116884
@@ -9866,6 +9878,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 1
+  targetSentence: 11
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 3.116884
@@ -13885,6 +13899,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.779221
@@ -18566,6 +18582,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 798550387148263834, guid: 13fd492e5ff5ddf49b1d46e0aba605fa, type: 3}
+      propertyPath: m_Value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 798550387148263834, guid: 13fd492e5ff5ddf49b1d46e0aba605fa, type: 3}
+      propertyPath: m_MaxValue
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 830090451258285964, guid: 13fd492e5ff5ddf49b1d46e0aba605fa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -19831,6 +19855,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 3.116884
@@ -20541,6 +20567,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.779221
@@ -20666,6 +20694,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.558442
@@ -22207,154 +22237,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: popUpPrefab
-      value: 
-      objectReference: {fileID: 8319281408470412996, guid: 58ba137bee4d39942b420ab100952e88, type: 3}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.size
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[0].name
-      value: Humble Beginnings
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[1].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[1].name
-      value: Drop the Beat
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[2].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[2].name
-      value: George of the Jungle
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[3].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[3].name
-      value: I Yearn for the Mines
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[4].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[4].name
-      value: Village Defender
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[5].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[5].name
-      value: Fearful Fighter
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[6].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[6].name
-      value: Beast Slayer
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[7].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[7].name
-      value: Wardrobe Change
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[8].icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 3ae7299adcc3be24789ee8f96612d49d, type: 3}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[8].name
-      value: Shopping Spree
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[4].value
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[4].unlocked
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[1].description
-      value: Finish Level 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[1].requirement
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[2].description
-      value: Get a full combo in Level 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[2].requirement
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[3].description
-      value: Get a full combo in Level 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[3].requirement
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[4].description
-      value: Defeat 100 beasts
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[4].requirement
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[5].description
-      value: Defeat 300 beasts
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[5].requirement
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[6].description
-      value: Defeat 1000 beasts
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[6].requirement
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[7].description
-      value: Buy a skin
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[7].requirement
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[8].description
-      value: Buy all skins
-      objectReference: {fileID: 0}
-    - target: {fileID: 2508951879254000792, guid: 722e21c258721f54e8f89024b152f231, type: 3}
-      propertyPath: achievements.Array.data[8].requirement
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 3891902376632515092, guid: 722e21c258721f54e8f89024b152f231, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -24342,6 +24224,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.779221
@@ -24530,6 +24414,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.779221
@@ -25840,6 +25726,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 1
+  targetSentence: 4
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 3.116884
@@ -29556,6 +29444,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 3.116884
@@ -40000,6 +39890,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 3.116884
@@ -40676,6 +40568,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 12.467536
@@ -42145,6 +42039,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.779221
@@ -43389,6 +43285,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 3.116884
@@ -43684,6 +43582,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.558442
@@ -46693,6 +46593,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 1.558442
@@ -46888,6 +46790,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 1
+  targetSentence: 14
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 3.116884
@@ -47626,6 +47530,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 3.116884
@@ -48873,6 +48779,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.779221
@@ -49156,6 +49064,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 3.116884
@@ -55101,6 +55011,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconName: 
+  skipsSentence: 0
+  targetSentence: 0
   collectableEffect: {fileID: 6602984689837080195, guid: 8592d920b6502db4895c1360657c7e56, type: 3}
   notesDuration:
   - 0.779221
@@ -55714,6 +55626,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1632516913}
     - target: {fileID: 4581914737326486179, guid: 8cbae775798fddb458d747fcd740c4fe, type: 3}
+      propertyPath: fullCombo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4581914737326486179, guid: 8cbae775798fddb458d747fcd740c4fe, type: 3}
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1806067964}
@@ -55902,18 +55818,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5118891352036811919, guid: bee359c0c98d4b248bbc25bc3d70ccb9, type: 3}
-      propertyPath: m_Name
-      value: DialogueBox
-      objectReference: {fileID: 0}
-    - target: {fileID: 5975887723669065927, guid: bee359c0c98d4b248bbc25bc3d70ccb9, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 153.2933
-      objectReference: {fileID: 0}
-    - target: {fileID: 5975887723669065927, guid: bee359c0c98d4b248bbc25bc3d70ccb9, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 564
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -55974,6 +55878,10 @@ PrefabInstance:
     - target: {fileID: 2500325945127916006, guid: 1356d04a774e97b4b90908e4becf3235, type: 3}
       propertyPath: m_Name
       value: AudioController
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053562966279588167, guid: 1356d04a774e97b4b90908e4becf3235, type: 3}
+      propertyPath: Loop
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6053562966279588167, guid: 1356d04a774e97b4b90908e4becf3235, type: 3}
       propertyPath: m_audioClip

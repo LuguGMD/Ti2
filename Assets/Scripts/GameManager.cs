@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public Animator playerAnim;
     public Animator swordAnim;
-    private bool fullCombo = true;
+    public bool fullCombo = true;
 
     public string lastAttackPos;
     public RectTransform[] effectPos;
@@ -216,9 +216,9 @@ public class GameManager : MonoBehaviour
                 powerupValue += (precisionValues.badCheck - precision)*powerupMult;
             }
 
-            powerupValue = Mathf.Clamp(powerupValue, 0, 100); 
+            powerupValue = Mathf.Clamp(powerupValue, 0, powerupBar.maxValue); 
 
-            if(powerupValue >= 100)
+            if(powerupValue >= powerupBar.maxValue)
             {
                 EnablePowerup();
             }
@@ -311,14 +311,23 @@ public class GameManager : MonoBehaviour
         player.GetComponent<Move>().XSpeed = 0;
 
         // Updates levels completion achivements
-        AchievementSystem.instance.UpdateAchievement(currentLevelId, 1); // Achivement Id = 0 -> Complete Level 1 achivement
-                                                                         // Achivement Id = 1 -> Complete Level 2 achivement
+        AchievementSystem.instance.UpdateAchievement(currentLevelId, 1); // Achivement Id = 0 -> Complete Level 1 Tutorial achivement
+                                                                         // Achivement Id = 1 -> Complete Level 1 achivement
+                                                                         // Achivement Id = 2 -> Complete Level 2 Tutorial achivement
+                                                                         // Achivement Id = 3 -> Complete Level 2 achivement
 
         // Updates full combos achivements
         if (fullCombo)
         {
-            AchievementSystem.instance.UpdateAchievement(currentLevelId + 2, 1); // Achivement Id = 2 -> Get a full combo in Level 1 achivement
-                                                                                 // Achivement Id = 3 -> Get a full combo in Level 2 achivement
+            switch (currentLevelId)
+            {
+                case 1:
+                    AchievementSystem.instance.UpdateAchievement(4, 1);  // Achivement Id = 4 -> Get a full combo in Level 1 achivement
+                    break;
+                case 3:
+                    AchievementSystem.instance.UpdateAchievement(5, 1);  // Achivement Id = 5 -> Get a full combo in Level 2 achivement
+                    break;
+            }                                                                    
         }
 
         SetPlayerData();

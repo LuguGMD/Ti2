@@ -49,9 +49,8 @@ public class SaveManager : MonoBehaviour
         if (playerData == null)
         {
             // If there is no save, create a default save
-            PlayerData defaultSave = new PlayerData(2, 5);
+            PlayerData defaultSave = new PlayerData(4, 5);
             defaultSave.SetLevelInfo(0, 0, true, 0);
-            defaultSave.SetLevelInfo(0, 0, false, 1);
             defaultSave.LoadAchivements();
             saveSystem.SavePlayerData(defaultSave);
         }
@@ -60,9 +59,12 @@ public class SaveManager : MonoBehaviour
             // Loads levels info in the level selection screen 
             for (int i = 0; i < playerData.levels.Length; i++)
             {
-                levelCoinsText[i].SetText(playerData.levels[i].coins.ToString());
-                levelScoreText[i].SetText(playerData.levels[i].score.ToString());
-
+                if (levelCoinsText[i] != null && levelScoreText[i] != null)
+                {
+                    levelCoinsText[i].SetText(playerData.levels[i].coins.ToString());
+                    levelScoreText[i].SetText(playerData.levels[i].score.ToString());
+                }
+                
                 // Check which levels the player has unlocked
                 if (playerData.levels[i].unlocked)
                 {

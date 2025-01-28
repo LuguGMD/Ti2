@@ -10,6 +10,10 @@ public abstract class EnemyBehaviour : MonoBehaviour
     public string iconName = "";
     private GameObject attackIcon;
 
+    [Header("Tutorial dialogue controller")]
+    public bool skipsSentence = false;
+    public int targetSentence = 0;
+
     [Header("Enemy Properties")]
     public GameObject collectableEffect;
     public float[] notesDuration;
@@ -23,7 +27,7 @@ public abstract class EnemyBehaviour : MonoBehaviour
     [SerializeField]
     public BoxCollider bc;
     [SerializeField]
-    protected Animator animator;
+    public Animator animator;
 
     public Vector3 deathRotation = new Vector3(60, -45, 30);
     public AnimationCurve deathAnimCurve;
@@ -100,11 +104,17 @@ public abstract class EnemyBehaviour : MonoBehaviour
         transform.DOScale(0, 2f);
 
         // Updates defeat beasts achivements
-        for (int i = 4; i <=6; i++)
+        for (int i = 6; i <=8; i++)
         {
-            AchievementSystem.instance.UpdateAchievement(i, 1); // Achivement Id = 4 -> Defeat 100 beasts achivement
-                                                                // Achivement Id = 5 -> Defeat 300 beasts achivement
-                                                                // Achivement Id = 6 -> Defeat 1000 beasts achivement
+            AchievementSystem.instance.UpdateAchievement(i, 1); // Achivement Id = 6 -> Defeat 100 beasts achivement
+                                                                // Achivement Id = 7 -> Defeat 300 beasts achivement
+                                                                // Achivement Id = 8 -> Defeat 1000 beasts achivement
+        }
+
+        // Sentence controller if the scene is a tutorial level
+        if (skipsSentence)
+        {
+            DialogueManager.instance.SkipToSentence(targetSentence);
         }
     }
 
