@@ -44,4 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94cf43b622a9f9b46a90cbbbf97a857d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialDialogue: {fileID: 0}
+  initialDialogue: {fileID: 11400000, guid: 2010c486512ae264481c2b299ae4be00, type: 2}
+  nameText: {fileID: 0}
+  sentenceText: {fileID: 0}
+  dialogueBox: {fileID: 0}
+  timeBetweenLetters: 0.03

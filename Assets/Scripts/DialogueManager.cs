@@ -12,9 +12,10 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text nameText;
     public TMP_Text sentenceText;
     public RectTransform dialogueBox;
+    public float timeBetweenLetters = 0.05f;
 
     private Queue<Sentence> sentences;
-    private int currentSentence = -1;
+    private int currentSentenceId = -1;
 
     private void Awake()
     {
@@ -63,7 +64,7 @@ public class DialogueManager : MonoBehaviour
         else
         {
             Sentence sentence = sentences.Dequeue();
-            currentSentence++;
+            currentSentenceId++;
             StopAllCoroutines();
             StartCoroutine(TypeSentence(sentence));
         }
@@ -72,12 +73,12 @@ public class DialogueManager : MonoBehaviour
     public void SkipToSentence(int index)
     {
         Debug.Log("Skip");
-        int sentencesToSkip = index - currentSentence - 1;
+        int sentencesToSkip = index - currentSentenceId - 1;
 
         for (int i = 0; i < sentencesToSkip; i++)
         {
             sentences.Dequeue();
-            currentSentence++;
+            currentSentenceId++;
         }
 
         DisplayNextSentence();
@@ -87,14 +88,17 @@ public class DialogueManager : MonoBehaviour
     {
         sentenceText.SetText("");
 
+        int i = 0;
         foreach (char letter in sentence.text.ToCharArray())
         {
             string currentText = sentenceText.text;
             sentenceText.SetText(currentText + letter);
-            yield return new WaitForSeconds(0.05f);
-        }
 
-        yield return new WaitForSeconds(sentence.duration);
+            yield return null;
+            yield return new WaitForSecondsRealtime(timeBetweenLetters - Time.deltaTime);
+        }
+        yield return null;
+        yield return new WaitForSecondsRealtime(sentence.duration - Time.deltaTime);
 
         if (!sentence.waitForInput)
         {

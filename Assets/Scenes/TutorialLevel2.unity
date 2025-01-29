@@ -5015,6 +5015,10 @@ PrefabInstance:
       propertyPath: initialDialogue
       value: 
       objectReference: {fileID: 11400000, guid: e6d69a706dfb14b46b4d4f86e6aadeae, type: 2}
+    - target: {fileID: 4856466426205918905, guid: c60db526aa67dcf4d8ff390e81adb2d2, type: 3}
+      propertyPath: timeBetweenLetters
+      value: 0.04
+      objectReference: {fileID: 0}
     - target: {fileID: 8958489857022791040, guid: c60db526aa67dcf4d8ff390e81adb2d2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 783.0583

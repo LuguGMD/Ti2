@@ -16,46 +16,46 @@ MonoBehaviour:
   artwork: {fileID: 0}
   sentences:
   - text: Good to see you again!
-    duration: 1.5
+    duration: 1.4
     waitForInput: 0
   - text: There is something new you need to know.
-    duration: 1.5
+    duration: 1.4
     waitForInput: 0
   - text: Some beasts will try to attack you. I will teach you how to defend yourself.
-    duration: 1.5
+    duration: 1.4
     waitForInput: 0
   - text: Wait for the first beast to enter the target on the ground.
-    duration: 0.4
+    duration: 0.3
     waitForInput: 0
   - text: When a beast is attacking you, an exclamation icon will appear next to
       the target.
-    duration: 1
+    duration: 0.9
     waitForInput: 0
   - text: Regardless wether the beast is on the ground or the air, press both sides
       of the screen at the same time to defend.
     duration: 0
     waitForInput: 1
   - text: Well done! Now let's try with a gorilla coming from the air.
-    duration: 0.8
+    duration: 0.7
     waitForInput: 0
   - text: Wait for it to enter the target.
-    duration: 0.4
+    duration: 0.3
     waitForInput: 0
   - text: Press both sides of the screen again.
     duration: 0
     waitForInput: 1
   - text: Great job!
-    duration: 2
+    duration: 1.9
     waitForInput: 0
   - text: Defeat the incoming gorillas on your own now.
-    duration: 10.7
+    duration: 10.6
     waitForInput: 0
   - text: Nice!
-    duration: 1.5
+    duration: 1.4
     waitForInput: 0
   - text: Use what you've learned to get through the next wave of beasts.
-    duration: 12
+    duration: 11.9
     waitForInput: 0
-  - text: You learn fast! You've now learned everything you need to know.
-    duration: 1.7
+  - text: You did it again! You've now learned everything you need to know.
+    duration: 1.6
     waitForInput: 0

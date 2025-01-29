@@ -55556,10 +55556,6 @@ PrefabInstance:
       propertyPath: sentenceText
       value: 
       objectReference: {fileID: 1077192138323032845}
-    - target: {fileID: 4856466426205918905, guid: c60db526aa67dcf4d8ff390e81adb2d2, type: 3}
-      propertyPath: initialDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: 2010c486512ae264481c2b299ae4be00, type: 2}
     - target: {fileID: 8958489857022791040, guid: c60db526aa67dcf4d8ff390e81adb2d2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 783.0583
