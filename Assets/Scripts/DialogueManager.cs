@@ -14,6 +14,7 @@ public class DialogueManager : MonoBehaviour
     public RectTransform dialogueBox;
     public float timeBetweenLetters = 0.05f;
     private float letterTimer;
+    private float sentenceTimer;
 
     private Queue<Sentence> sentences;
     private int currentSentenceId = -1;
@@ -65,6 +66,7 @@ public class DialogueManager : MonoBehaviour
         else
         {
             Sentence sentence = sentences.Dequeue();
+            sentenceTimer = 0;
             currentSentenceId++;
             StopAllCoroutines();
             StartCoroutine(TypeSentence(sentence));
@@ -96,10 +98,16 @@ public class DialogueManager : MonoBehaviour
             string currentText = sentenceText.text;
             sentenceText.SetText(currentText + letter);
 
-            // yield return new WaitForSecondsRealtime(timeBetweenLetters);
             yield return new WaitUntil(CanDisplayNextLetter);
         }
-        yield return new WaitForSecondsRealtime(sentence.duration);
+        yield return new WaitUntil(() =>
+        {
+            if (!GameManager.instance.gamePaused)
+                sentenceTimer += Time.deltaTime;
+            return !GameManager.instance.gamePaused && sentenceTimer > sentence.duration;
+        });
+
+        //yield return new WaitForSecondsRealtime(sentence.duration);
 
         if (!sentence.waitForInput)
         {
