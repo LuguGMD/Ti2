@@ -48,10 +48,8 @@ MonoBehaviour:
   - text: Once again, wait for it to enter the target on the ground.
     duration: 0.7
     waitForInput: 0
-  - text: 'To defeat a butterfly you need to hold the attack.
-
-      Hold the right
-      side of the screen until the bar disapears.'
+  - text: To defeat it you need to hold the attack. Hold the right side of the screen
+      until the butterfly is defeated.
     duration: 0
     waitForInput: 1
   - text: 'Nice! '
@@ -60,7 +58,7 @@ MonoBehaviour:
   - text: Now, wait again for the next enemy.
     duration: 0
     waitForInput: 0
-  - text: Hold the left side of the screen until the bar disapears.
+  - text: Hold the left side of the screen until the butterfly is defeated.
     duration: 0
     waitForInput: 1
   - text: Good job!
