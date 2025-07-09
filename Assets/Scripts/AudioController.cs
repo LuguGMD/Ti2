@@ -100,6 +100,11 @@ public class AudioController : MonoBehaviour
         yield break;
     }
 
+    public void MuteEnemySounds()
+    {
+        enemiesAudioSoruce.mute = true;
+    }
+
     public void PlaySFX(string fileName)
     {
         int index = FindSFXIndex(fileName);

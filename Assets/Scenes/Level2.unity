@@ -96997,6 +96997,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 606116472}
+    - target: {fileID: 945225010747338089, guid: 13fd492e5ff5ddf49b1d46e0aba605fa, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1120334896283617745, guid: 13fd492e5ff5ddf49b1d46e0aba605fa, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -282743,6 +282747,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 209360424701840916, guid: 1356d04a774e97b4b90908e4becf3235, type: 3}
+      propertyPath: m_Volume
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 209360424701840916, guid: 1356d04a774e97b4b90908e4becf3235, type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: a12a748d48cc46245b613d2b036cdd4b, type: 3}
@@ -282789,6 +282797,10 @@ PrefabInstance:
     - target: {fileID: 2500325945127916006, guid: 1356d04a774e97b4b90908e4becf3235, type: 3}
       propertyPath: m_Name
       value: AudioController
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053562966279588167, guid: 1356d04a774e97b4b90908e4becf3235, type: 3}
+      propertyPath: m_Volume
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 6053562966279588167, guid: 1356d04a774e97b4b90908e4becf3235, type: 3}
       propertyPath: m_audioClip

@@ -339,6 +339,7 @@ public class GameManager : MonoBehaviour
         gamePaused = true; // Used to deactivate player input
 
         AudioController.instance.ChangeBGMusic(0);
+        AudioController.instance.MuteEnemySounds();
         
         playerAnim.SetTrigger("Died");
         swordAnim.SetTrigger("Died");
