@@ -13,6 +13,7 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text sentenceText;
     public RectTransform dialogueBox;
     public float timeBetweenLetters = 0.05f;
+    private float letterTimer;
 
     private Queue<Sentence> sentences;
     private int currentSentenceId = -1;
@@ -91,19 +92,25 @@ public class DialogueManager : MonoBehaviour
         int i = 0;
         foreach (char letter in sentence.text.ToCharArray())
         {
+            letterTimer = 0;
             string currentText = sentenceText.text;
             sentenceText.SetText(currentText + letter);
 
-            yield return null;
-            yield return new WaitForSecondsRealtime(timeBetweenLetters - Time.deltaTime);
+            // yield return new WaitForSecondsRealtime(timeBetweenLetters);
+            yield return new WaitUntil(CanDisplayNextLetter);
         }
-        yield return null;
-        yield return new WaitForSecondsRealtime(sentence.duration - Time.deltaTime);
+        yield return new WaitForSecondsRealtime(sentence.duration);
 
         if (!sentence.waitForInput)
         {
             DisplayNextSentence();
         }
+    }
+
+    private bool CanDisplayNextLetter()
+    {
+        letterTimer += Time.deltaTime;
+        return !GameManager.instance.gamePaused && letterTimer > timeBetweenLetters;
     }
 
     public void DialogueBoxIn()

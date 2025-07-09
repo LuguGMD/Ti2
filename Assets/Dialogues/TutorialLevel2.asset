@@ -12,31 +12,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd3c3ba14d666bb48b12a1e92f92cebd, type: 3}
   m_Name: TutorialLevel2
   m_EditorClassIdentifier: 
-  name: Vilagger
-  artwork: {fileID: 0}
+  name: Villager
+  artwork: {fileID: 21300000, guid: 98cc59de23bcdac4a8bf217815461500, type: 3}
   sentences:
   - text: Good to see you again!
-    duration: 1.4
+    duration: 0.5
     waitForInput: 0
   - text: There is something new you need to know.
-    duration: 1.4
+    duration: 0.5
     waitForInput: 0
   - text: Some beasts will try to attack you. I will teach you how to defend yourself.
-    duration: 1.4
+    duration: 0.7
     waitForInput: 0
   - text: Wait for the first beast to enter the target on the ground.
-    duration: 0.3
+    duration: 0.7
     waitForInput: 0
   - text: When a beast is attacking you, an exclamation icon will appear next to
       the target.
-    duration: 0.9
+    duration: 0.5
     waitForInput: 0
   - text: Regardless wether the beast is on the ground or the air, press both sides
       of the screen at the same time to defend.
     duration: 0
     waitForInput: 1
   - text: Well done! Now let's try with a gorilla coming from the air.
-    duration: 0.7
+    duration: 0.2
     waitForInput: 0
   - text: Wait for it to enter the target.
     duration: 0.3

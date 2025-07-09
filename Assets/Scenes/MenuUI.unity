@@ -593,7 +593,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &121737456
 RectTransform:
   m_ObjectHideFlags: 0
@@ -611,7 +611,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 89.02472, y: 164}
+  m_AnchoredPosition: {x: 89.02472, y: -14}
   m_SizeDelta: {x: 152.2604, y: 150.2861}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &121737457
@@ -1197,7 +1197,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &262756154
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1673,11 +1673,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'TAP ON THE LEFT SIDE TO ELIMINATE ENEMIES BELOW AND TAP ON THE RIGHT TO
-    ELIMINATE ENEMIES IN THE AIR
+  m_text: 'TAP ON THE RIGHT SIDE TO DEFEAT BEASTS COMING FROM THE GROUND AND TAP
+    ON THE LEFT SIDE TO DEFEAT BEASTS COMING FROM THE AIR
 
 
-    TAP ON BOTH SIDES TO DEFEND FROM ATTACKS'
+    TAP ON BOTH SIDES
+    TO DEFEND FROM ATTACKS'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5aec50800ede67844a1b99217c0fbc09, type: 2}
   m_sharedMaterial: {fileID: -3786694211583975428, guid: 5aec50800ede67844a1b99217c0fbc09, type: 2}
@@ -4582,7 +4583,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1127121743
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5335,12 +5336,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1647587045}
-  - {fileID: 1816839599}
   - {fileID: 1404617992}
   - {fileID: 1358300099}
   - {fileID: 1541110583}
   - {fileID: 121737456}
   - {fileID: 2145226821}
+  - {fileID: 1816839599}
   - {fileID: 6304120918773187126}
   - {fileID: 516360584}
   m_Father: {fileID: 0}
@@ -7918,11 +7919,9 @@ MonoBehaviour:
   - {fileID: 1177301530}
   - {fileID: 1690984095}
   - {fileID: 476839779}
-  - {fileID: 3222777439599700881}
   - {fileID: 516360583}
   enableMenus:
   - {fileID: 1358300098}
-  - {fileID: 121737455}
   - {fileID: 2145226820}
 --- !u!1 &1690984095
 GameObject:
@@ -10510,7 +10509,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 89.02472, y: -14}
+  m_AnchoredPosition: {x: 89.02472, y: 164}
   m_SizeDelta: {x: 152.2604, y: 150.2861}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &2145226822
